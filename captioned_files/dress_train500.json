@@ -1,0 +1,4502 @@
+[
+    {
+        "target": "B008BHCT58",
+        "captions": [
+            "is solid black with no sleeves",
+            "is black with straps"
+        ],
+        "candidate": "B003FGW7MK",
+        "description": "The blue and green long-sleeved dress with a bird-like design is a stylish and eye-catching piece of clothing."
+    },
+    {
+        "target": "B00BZ8GPVO",
+        "captions": [
+            "is longer",
+            "is lighter and longer"
+        ],
+        "candidate": "B008MTHLHQ",
+        "description": "The black dress features a V-neckline, a fitted bodice, and a pleated skirt, with a subtle ruching detail."
+    },
+    {
+        "target": "B008KZR6WM",
+        "captions": [
+            "3/4 sleeve black and white dress and more top covered",
+            "has short sleeve and is black color"
+        ],
+        "candidate": "B00EVKYJAC",
+        "description": "The purple dress has a v-neckline and a lace-up front."
+    },
+    {
+        "target": "B00684UYEE",
+        "captions": [
+            "is patterned and has a halter neckline",
+            "is black with floral patterns"
+        ],
+        "candidate": "B003U9VL4W",
+        "description": "A strapless red satin dress with a knot detail and a wrap skirt."
+    },
+    {
+        "target": "B00EV1B9C2",
+        "captions": [
+            "is black with no sleeves",
+            "is longer"
+        ],
+        "candidate": "B00BLY2L2E",
+        "description": "A white strapless dress with a sweetheart neckline, adorned with rhinestones and a feathered skirt."
+    },
+    {
+        "target": "B000FSDAIG",
+        "captions": [
+            "is a long dress with a combination of black and white",
+            "is not clothing and has smiley faces"
+        ],
+        "candidate": "B00B2EAOA4",
+        "description": "Blue and white tie-dye maxi dress with a halter neck, spaghetti straps, and a high-low hemline."
+    },
+    {
+        "target": "B00CTSFYSE",
+        "captions": [
+            "is a long maxi dress",
+            "is an a-line print"
+        ],
+        "candidate": "B00CIAINUO",
+        "description": "A grey halter halter dress with a black sequin detail and a black belt."
+    },
+    {
+        "target": "B008ULB0PK",
+        "captions": [
+            "is less sexy but more colorful",
+            "is lighter"
+        ],
+        "candidate": "B002UUTR4S",
+        "description": "A strapless black dress with a bow detail and a silver brooch on the waist."
+    },
+    {
+        "target": "B00C97K8TK",
+        "captions": [
+            "is longer and black wit a fitted waist",
+            "is black with straps"
+        ],
+        "candidate": "B009XNOE34",
+        "description": "The white lace dress has a long sleeve, a v-neckline, and a fitted design."
+    },
+    {
+        "target": "B002GT074M",
+        "captions": [
+            "has long sleeves and stripes",
+            "is striped with sleeves"
+        ],
+        "candidate": "B0045KDJYU",
+        "description": "A strapless black and green lace dress with a black belt and a black lace hem."
+    },
+    {
+        "target": "B00BB7FN6C",
+        "captions": [
+            "is longer and yellow",
+            "belted maxi dress in block colors of yellow and green"
+        ],
+        "candidate": "B007FP4YBO",
+        "description": "Red dress with draped fabric, short sleeves, and a cinched waist."
+    },
+    {
+        "target": "B009N9YUP0",
+        "captions": [
+            "is a back patterned dress",
+            "is not as bright in color"
+        ],
+        "candidate": "B00BR3OXYS",
+        "description": "Red and yellow dress with a belt and a pattern of gold chains."
+    },
+    {
+        "target": "B00EOSK2DY",
+        "captions": [
+            "has larger stripes  and is shorter",
+            "more stripes and short sleeves"
+        ],
+        "candidate": "B008BPV244",
+        "description": "A black and white striped strapless maxi dress with a pleated skirt and a fitted bodice."
+    },
+    {
+        "target": "B00DYXGVW6",
+        "captions": [
+            "has short sleeves and is longer and more flowing",
+            "has longer sleeves"
+        ],
+        "candidate": "B007E8M69Y",
+        "description": "A one-shoulder white dress with a lace and embroidery design, a pleated skirt, and a thin belt."
+    },
+    {
+        "target": "B00A8FA3RW",
+        "captions": [
+            "is real colored and sleeveless",
+            "is blue with straps"
+        ],
+        "candidate": "B00A8F9ZBW",
+        "description": "The pink dress features a round neckline, three-quarter length sleeves, and a flared skirt with a black belt."
+    },
+    {
+        "target": "B007CVK41K",
+        "captions": [
+            "is red",
+            "is red and white"
+        ],
+        "candidate": "B0060FHQI8",
+        "description": "The black and green dress features a black top with a white lace overlay and a green and white skirt with a lace overlay."
+    },
+    {
+        "target": "B00G5N3J04",
+        "captions": [
+            "is dark with straps",
+            "has straps and a tighter fit"
+        ],
+        "candidate": "B00BJSE54Y",
+        "description": "A strapless black leather dress with a fitted bodice and a short hemline."
+    },
+    {
+        "target": "B007EBPVAW",
+        "captions": [
+            "is brighter in color",
+            "is green and more revealing"
+        ],
+        "candidate": "B00BBL2AM8",
+        "description": "Black short sleeve dress with white flowers and silver sandals"
+    },
+    {
+        "target": "B00FJDYWAC",
+        "captions": [
+            "Is more plain and less whimsical",
+            "is solid brown"
+        ],
+        "candidate": "B005MKBNX6",
+        "description": "The black dress features a paisley design with green and purple accents."
+    },
+    {
+        "target": "B005F059JM",
+        "captions": [
+            "has no straps and is darker",
+            "is silver and strapless"
+        ],
+        "candidate": "B008VPWWSO",
+        "description": "The red and white dress features a V-neckline, a wrap design, and a short length."
+    },
+    {
+        "target": "B004NRNQRU",
+        "captions": [
+            "is shorter and lighter",
+            "is tank toped and full bottom"
+        ],
+        "candidate": "B005RYO4DS",
+        "description": "A strapless black and white dress with a ruffled design and a black peep-toe shoe."
+    },
+    {
+        "target": "B008UWJHFO",
+        "captions": [
+            "is asymmetrical",
+            "the bottom goes to the side"
+        ],
+        "candidate": "B006NUDY04",
+        "description": "Strapless black strapless dress with a high-low hemline, pleated skirt, and a striped overlay."
+    },
+    {
+        "target": "B00DGP705O",
+        "captions": [
+            "is lighter and has shorter sleeves",
+            "is sleeveless and pink"
+        ],
+        "candidate": "B00A8FA0IE",
+        "description": "The purple dress has a black stripe down the side and a round neckline."
+    },
+    {
+        "target": "B0065RQ4LG",
+        "captions": [
+            "is solid black with buckles",
+            "Is black"
+        ],
+        "candidate": "B00EDTKF9A",
+        "description": "The tan knee-high boot with a buckle strap and a buckle on the side."
+    },
+    {
+        "target": "B00438R7EM",
+        "captions": [
+            "strapless and more red.",
+            "puffier"
+        ],
+        "candidate": "B00DRDIZFY",
+        "description": "The blue lace dress features a sleeveless design, a fitted bodice, and a flared skirt with a blue ribbon at the waist."
+    },
+    {
+        "target": "B001E8XULI",
+        "captions": [
+            "has thinner straps with beige tone",
+            "is beige and less Hawaiian"
+        ],
+        "candidate": "B002GYOV1W",
+        "description": "A white dress with a tropical print, featuring green leaves and orange flowers."
+    },
+    {
+        "target": "B00CQ7LKS6",
+        "captions": [
+            "is longer with straps",
+            "is longer"
+        ],
+        "candidate": "B006J42UHW",
+        "description": "A strapless black and white lace dress with a tulle skirt and a black high heel shoe."
+    },
+    {
+        "target": "B00A6FQH92",
+        "captions": [
+            "has a v-neck",
+            "has two colors"
+        ],
+        "candidate": "B00BYF3CQE",
+        "description": "The black peplum dress features a peplum waistline, a round neckline, and a fitted bodice."
+    },
+    {
+        "target": "B006WJ2LIW",
+        "captions": [
+            " red",
+            " red and longer mermaid skirted"
+        ],
+        "candidate": "B006W6EHDW",
+        "description": "The purple dress features a ruffled neckline, a satin ribbon waist, and a pleated skirt."
+    },
+    {
+        "target": "B00BL4U932",
+        "captions": [
+            "Is brighter with a ruffled front.",
+            "is more blue"
+        ],
+        "candidate": "B003UV9XTA",
+        "description": "The black and white tie-dye dress with 3/4 sleeves and a knot detail at the front."
+    },
+    {
+        "target": "B00E0WP2Y8",
+        "captions": [
+            "has a larger cleavage and is darker",
+            "blue with wider skirt"
+        ],
+        "candidate": "B008F4DYIS",
+        "description": "Black dress with a red belt, sleeveless, fitted bodice, and a flared skirt."
+    },
+    {
+        "target": "B009DMFFLK",
+        "captions": [
+            " with a red belt",
+            "is more orange and is shorter"
+        ],
+        "candidate": "B0063R8BIW",
+        "description": "A yellow and white striped maxi dress with a tie waist and a high low hemline."
+    },
+    {
+        "target": "B008BRM2GY",
+        "captions": [
+            "is shorter and has longer sleeves",
+            "covers shoulders more and has a belt and a pattern"
+        ],
+        "candidate": "B00FVTN84U",
+        "description": "A strapless black dress with a sweetheart neckline and a pleated bodice."
+    },
+    {
+        "target": "B00A8FAMPA",
+        "captions": [
+            "Is cream with long sleeves",
+            "is white and more casual"
+        ],
+        "candidate": "B00A8FA2JG",
+        "description": "The pink dress has a round neckline, three-quarter sleeves, and a flared skirt."
+    },
+    {
+        "target": "B005MGDYAA",
+        "captions": [
+            "is green and with short sleeves",
+            "is darker in color"
+        ],
+        "candidate": "B009NCH63U",
+        "description": "The pink floral dress with a belt is a stylish and trendy piece of clothing."
+    },
+    {
+        "target": "B00APFED80",
+        "captions": [
+            "is a princess neck line floorlenght blue dress",
+            "formal longer two toned sheath"
+        ],
+        "candidate": "B00APFEPRY",
+        "description": "A strapless purple and white ball gown with a sweetheart neckline, ruffles, and floral embroidery."
+    },
+    {
+        "target": "B0051T2TSQ",
+        "captions": [
+            "is completely black in color",
+            "is solid black"
+        ],
+        "candidate": "B008UBRHIE",
+        "description": "The brown cardigan is made of a smooth material and has a tie at the waist."
+    },
+    {
+        "target": "B00E4NM9LW",
+        "captions": [
+            "has no sleeves and is solid navy blue",
+            "has no sleeves"
+        ],
+        "candidate": "B00BWPV50Q",
+        "description": "A navy blue and mustard yellow dress with short sleeves, a V-neckline, and a pleated skirt."
+    },
+    {
+        "target": "B00509LC3U",
+        "captions": [
+            "is strapless",
+            "is belted and strapless"
+        ],
+        "candidate": "B008TKM7IQ",
+        "description": "Black dress with short sleeves, ruffled hem, and a round neckline."
+    },
+    {
+        "target": "B00ECWW762",
+        "captions": [
+            " with spaghetti straps",
+            "More red and shorter"
+        ],
+        "candidate": "B00ARRFKGA",
+        "description": "The sleeveless black and yellow dress has a black waistband and a black belt."
+    },
+    {
+        "target": "B006ZQW628",
+        "captions": [
+            " sleeveless",
+            "has bright pink and black patterns"
+        ],
+        "candidate": "B004IK9BDA",
+        "description": "Yellow dress with black and white feather print, sleeveless, V-neck, fitted at the waist, knee-length."
+    },
+    {
+        "target": "B009KP6QZO",
+        "captions": [
+            "is teal and sleeveless",
+            "has a v-neck and is lighter colored"
+        ],
+        "candidate": "B00CG60MOK",
+        "description": "Black long sleeve dress with cut out shoulders, black and white necklace, and black sweater."
+    },
+    {
+        "target": "B00CF1X8C4",
+        "captions": [
+            " with long sleeves",
+            "It is more white and has a strap"
+        ],
+        "candidate": "B00CF1VSU8",
+        "description": "The red strapless dress features a satin finish, a low back, and a bow at the waist."
+    },
+    {
+        "target": "B008ULB33O",
+        "captions": [
+            "is more colorful and revealing",
+            "is sleeveless and more fitted"
+        ],
+        "candidate": "B00FNJDPNW",
+        "description": "The elegant lace top with a delicate bow tie, paired with the sophisticated burgundy tulle skirt, makes for a stunning and stylish ensemble."
+    },
+    {
+        "target": "B00DTPXNNE",
+        "captions": [
+            "v neck black and blue short dress",
+            " is pale pink and much shorter"
+        ],
+        "candidate": "B00FO6Y4CU",
+        "description": "A blue and black strapless dress with a bow detail and a black belt."
+    },
+    {
+        "target": "B0097L5W9M",
+        "captions": [
+            "Has a plainer Pattern",
+            "has purple flowers and has straps"
+        ],
+        "candidate": "B0062FMQOU",
+        "description": "A strapless blue and white floral maxi dress with a blue and white striped bodice and a blue and white floral pattern."
+    },
+    {
+        "target": "B00CKL8YRS",
+        "captions": [
+            "is green with small dots",
+            "is lwaisted and green"
+        ],
+        "candidate": "B00C97HZWI",
+        "description": "Blue and white dress with a white lace design on the bodice"
+    },
+    {
+        "target": "B007N00P1O",
+        "captions": [
+            "Is blue with a keyhole cut out.",
+            "is sleeveless"
+        ],
+        "candidate": "B008I2VXU8",
+        "description": "Floral print dress with a sweetheart neckline, short sleeves, and a fitted silhouette."
+    },
+    {
+        "target": "B008E6IBEY",
+        "captions": [
+            "is two toned and less colorful",
+            "is a two-piece with sleeved top"
+        ],
+        "candidate": "B003TJA806",
+        "description": "The blue and purple dress has a black waistband and a black panel on the shoulder."
+    },
+    {
+        "target": "B00684V5LK",
+        "captions": [
+            "is the same dress but white",
+            "whiter and opposite"
+        ],
+        "candidate": "B00684UKK2",
+        "description": "Black and white floral halter dress with a black belt and a black tulle skirt."
+    },
+    {
+        "target": "B00E9MS2ZK",
+        "captions": [
+            "has black and white pattern",
+            "is more plain"
+        ],
+        "candidate": "B008CO888C",
+        "description": "The turquoise cardigan is a stylish addition to the outfit, complementing the black and teal patterned dress."
+    },
+    {
+        "target": "B00B19GNCS",
+        "captions": [
+            "is a tighter fitting dress",
+            "is shorter"
+        ],
+        "candidate": "B009K7G69I",
+        "description": "Black spaghetti strap dress with lace trim and a black and white pattern on the front."
+    },
+    {
+        "target": "B008G5VVDQ",
+        "captions": [
+            "is more colorful and more floral",
+            "is darker in color"
+        ],
+        "candidate": "B00926L00C",
+        "description": "A pink dress with a pleated bodice, a ruffled waist, and a flared skirt, adorned with a beaded necklace."
+    },
+    {
+        "target": "B008AIKAYU",
+        "captions": [
+            "has both shoulders covered and is black.",
+            "is v necked and black"
+        ],
+        "candidate": "B0072CLC0Q",
+        "description": "One-shoulder red dress with ruched bodice and side drape"
+    },
+    {
+        "target": "B009DIG5X6",
+        "captions": [
+            "has shorter sleeves with a different pattern",
+            "more revealing and shorter sleevs"
+        ],
+        "candidate": "B008DGZ1IY",
+        "description": "Black sequin mini dress with long sleeves and a round neckline, with a white and black heel."
+    },
+    {
+        "target": "B005MKBQBK",
+        "captions": [
+            "is short sleeved and solid black",
+            "has belts"
+        ],
+        "candidate": "B0052IGSS8",
+        "description": "The black and white maxi dress features a floral pattern and a scoop neckline."
+    },
+    {
+        "target": "B00B67DET0",
+        "captions": [
+            "is just two solid colors",
+            "is brown and white"
+        ],
+        "candidate": "B005SN1F5I",
+        "description": "The striped sweater is black, short, and has a high collar."
+    },
+    {
+        "target": "B008A4OT2S",
+        "captions": [
+            "is a black dress",
+            "is black and long-sleeve"
+        ],
+        "candidate": "B006ACAY0I",
+        "description": "The tan hat with mesh side panels and wide brim is a stylish and functional piece of clothing."
+    },
+    {
+        "target": "B008MZSKS4",
+        "captions": [
+            "covers the sholders and is darker",
+            "is solid black and longer"
+        ],
+        "candidate": "B002YQ3MAS",
+        "description": "The black dress features a purple and pink floral design, with a black waistband and spaghetti straps."
+    },
+    {
+        "target": "B00AFOMFT0",
+        "captions": [
+            " solid color",
+            "is longer and solid yellow"
+        ],
+        "candidate": "B00AFPZBUY",
+        "description": "Striped sleeveless top with a yellow skirt and polka dot ribbon."
+    },
+    {
+        "target": "B00A8FANIQ",
+        "captions": [
+            "has an animal print",
+            "is brown with animal print"
+        ],
+        "candidate": "B00BYN092Q",
+        "description": "The pink wrap dress features a V-neckline, 3/4 sleeves, and a tie at the waist."
+    },
+    {
+        "target": "B005OORJ8I",
+        "captions": [
+            "has a medium sleeves with a light in color.",
+            "the dress is grey and shorter"
+        ],
+        "candidate": "B003IHVHOK",
+        "description": "The red and blue patterned dress with a black belt and a black beaded trim."
+    },
+    {
+        "target": "B0072BD06Q",
+        "captions": [
+            "Is more fitted and red",
+            "Is more fitting with capped sleeves."
+        ],
+        "candidate": "B008GQ3M1E",
+        "description": "Yellow lace dress with a round neckline and a yellow floral design"
+    },
+    {
+        "target": "B00DW7SGFY",
+        "captions": [
+            "has a halter top and is lighter",
+            "is pink without sleeves"
+        ],
+        "candidate": "B00FFW0TRW",
+        "description": "The red dress has a V-neckline, short sleeves, and a pleated skirt."
+    },
+    {
+        "target": "B00B0QDSXY",
+        "captions": [
+            " with a deeper pink color",
+            "is more flowy and lighter"
+        ],
+        "candidate": "B008BHS3UI",
+        "description": "A black skirt with a white pattern, featuring a waistband and a black top with a gray shirt."
+    },
+    {
+        "target": "B005EYSZZO",
+        "captions": [
+            "is shorter with a pink tie dye print",
+            "is shorter and red and white"
+        ],
+        "candidate": "B0073ETM28",
+        "description": "The white dress features a floral print, a one-shoulder design, and a waistband."
+    },
+    {
+        "target": "B00307RLL6",
+        "captions": [
+            "is red and shorter",
+            "is red colored with no pattern"
+        ],
+        "candidate": "B005LC23ES",
+        "description": "The striped dress features blue, orange, and white stripes, with a white waistband and a white strap."
+    },
+    {
+        "target": "B00ALGU3FK",
+        "captions": [
+            " has no straps and is shorter",
+            "is black with colored pattern"
+        ],
+        "candidate": "B0067HLGGC",
+        "description": "The red and black dress has a geometric pattern and a square neckline."
+    },
+    {
+        "target": "B00CNGCRPA",
+        "captions": [
+            "Is lonf and torquose",
+            "is blue with straps"
+        ],
+        "candidate": "B00CMGP6PY",
+        "description": "A colorful zigzag-patterned dress with 3/4 sleeves, a round neckline, and a fitted silhouette."
+    },
+    {
+        "target": "B004QVWTMQ",
+        "captions": [
+            "darker blue and shorter sleeved",
+            "is dark blue with shorter sleeves"
+        ],
+        "candidate": "B0062R1L8A",
+        "description": "V-neck blue long sleeve top with 3/4 length sleeves, loose fit, and a pleated waist."
+    },
+    {
+        "target": "B007CPTQ1A",
+        "captions": [
+            "is more colorful and has no sleeves",
+            "is sleeveless with a vneck and brightly colored"
+        ],
+        "candidate": "B008KSA964",
+        "description": "Black sequin dress with sheer sleeves and a black belt"
+    },
+    {
+        "target": "B004ZY0CBY",
+        "captions": [
+            "has a smaller floral design and short sleeves",
+            "has longer sleeves"
+        ],
+        "candidate": "B006WQW6K8",
+        "description": "Blue and yellow floral print dress with black trim and a black waistband"
+    },
+    {
+        "target": "B00B67AO2A",
+        "captions": [
+            "is black and more parochial",
+            "is black with longer sleeves"
+        ],
+        "candidate": "B00715FT9O",
+        "description": "The colorful geometric print dress with a collar and three-quarter sleeves is a stylish choice for a day out."
+    },
+    {
+        "target": "B0065L240C",
+        "captions": [
+            "is more solid and shorter",
+            "is all black with sheer sleeves"
+        ],
+        "candidate": "B00CO6KO0E",
+        "description": "Black and white one-shoulder evening gown with a side slit, featuring a beaded zipper and a gold bracelet."
+    },
+    {
+        "target": "B00BEDIQVM",
+        "captions": [
+            "is shiny blue and less revealing",
+            "is shiny and darker"
+        ],
+        "candidate": "B00CPKGWDW",
+        "description": "The sleeveless dress features a tie-dye design with shades of green, blue, and yellow."
+    },
+    {
+        "target": "B00824GB22",
+        "captions": [
+            "is an off shoulder blue top",
+            "is shorter and off the shoulder"
+        ],
+        "candidate": "B007RGMHA6",
+        "description": "The turquoise dress has a ruffled top, thin straps, and a layered skirt with a ruffled hem."
+    },
+    {
+        "target": "B00CUD9RQI",
+        "captions": [
+            "is lighter and has shorter sleeves",
+            "has no sleeves and and green color"
+        ],
+        "candidate": "B00CUDWJJU",
+        "description": "The brown long dress with a black belt and 3/4 sleeves is a stylish and elegant piece of clothing."
+    },
+    {
+        "target": "B009VYW3Y2",
+        "captions": [
+            " is printed and is pink",
+            "is a geometric print"
+        ],
+        "candidate": "B006BBKVPG",
+        "description": "Black wrap dress with 3/4 sleeves, V-neck, and a tie at the waist."
+    },
+    {
+        "target": "B00C40W020",
+        "captions": [
+            "is solid black with longer sleeves",
+            "Is longer"
+        ],
+        "candidate": "B00AKOUZPQ",
+        "description": "The black skirt is a pencil skirt with a slim fit, featuring a pleated design and a waistband."
+    },
+    {
+        "target": "B00712KNGG",
+        "captions": [
+            "black u shaped neck dress with long sleeves. Black in color",
+            "is solid black"
+        ],
+        "candidate": "B008BRM2G4",
+        "description": "The black and red floral dress with a V-neckline and a tie waist is a stylish and comfortable piece of clothing."
+    },
+    {
+        "target": "B006ZQX8RK",
+        "captions": [
+            "is dark red and shinier.",
+            "shinier and red"
+        ],
+        "candidate": "B006LFF850",
+        "description": "Black sleeveless dress with a V-neckline, embellished waistband, and a flowy skirt."
+    },
+    {
+        "target": "B00DJQN0MW",
+        "captions": [
+            "has straps and is orange",
+            " more modern solid red"
+        ],
+        "candidate": "B007CDYAAE",
+        "description": "A strapless, multicolored dress with a pleated skirt and a ruffled neckline."
+    },
+    {
+        "target": "B0060FHQI8",
+        "captions": [
+            "uneven designed light green and black dress",
+            "is shorter and has a brighter color pattern"
+        ],
+        "candidate": "B0053W3ZCK",
+        "description": "Black and white lace dress with a black and white lace top, black and white lace skirt, and black and white lace straps."
+    },
+    {
+        "target": "B004YN2KW0",
+        "captions": [
+            "Is more whimsical and pink",
+            "has thick straps"
+        ],
+        "candidate": "B004YKSCX4",
+        "description": "The black and white strapless dress with a colorful pattern and a halter neck design."
+    },
+    {
+        "target": "B00A1HXBNK",
+        "captions": [
+            "has shorter sleeves and no bust embroidery",
+            "is plain and shorter sleeves"
+        ],
+        "candidate": "B0070P0ZLM",
+        "description": "The blue long dress with a silver sequined bodice and a blue chiffon jacket."
+    },
+    {
+        "target": "B00EDTG2PQ",
+        "captions": [
+            "is less revealing",
+            "has a V neck and a belt"
+        ],
+        "candidate": "B00DZYKQK2",
+        "description": "Black halter dress with a high leg slit, sleeveless, and a scoop neck."
+    },
+    {
+        "target": "B006WQXWE2",
+        "captions": [
+            "is a black and white dress with straps",
+            "is paisley"
+        ],
+        "candidate": "B0074PSMUY",
+        "description": "Black and white halter dress with a giraffe print, sleeveless, gathered bodice, and a flared skirt."
+    },
+    {
+        "target": "B006MOS4DS",
+        "captions": [
+            "is black and white tight short dress",
+            "is black and white"
+        ],
+        "candidate": "B009ANVHJG",
+        "description": "The red dress features a satin-like material, a V-neckline, and cap sleeves."
+    },
+    {
+        "target": "B00DH7DDRU",
+        "captions": [
+            "is longer and has more design",
+            "is longer and lighter colored pattern"
+        ],
+        "candidate": "B00A8FAI86",
+        "description": "Blue sleeveless dress with a V-neckline, belt, and a large silver buckle."
+    },
+    {
+        "target": "B008VIRAB0",
+        "captions": [
+            "is more high-waisted and has a bow",
+            "round neck"
+        ],
+        "candidate": "B008M4QLLI",
+        "description": "The striped maxi dress features a deep V-neckline, three-quarter sleeves, and a fitted bodice with a geometric pattern."
+    },
+    {
+        "target": "B00CTT50XC",
+        "captions": [
+            "is shorter with short sleeves and box design",
+            "is white and black and shorter"
+        ],
+        "candidate": "B00CTT44KW",
+        "description": "The black and white long dress with a high slit, featuring a geometric pattern and a low back."
+    },
+    {
+        "target": "B00CTA12Q0",
+        "captions": [
+            "is long and strapless.",
+            "has striped pink near the bottom and a white top. Fit is a lot longer.."
+        ],
+        "candidate": "B00CTA0NEW",
+        "description": "The colorful dress features a vibrant pattern with blue, purple, and green hues."
+    },
+    {
+        "target": "B008RJZVHS",
+        "captions": [
+            "is shorter",
+            " longer and striped"
+        ],
+        "candidate": "B007Y3CO3C",
+        "description": "The sleeveless black and white maxi dress with a black and white abstract pattern and a slit on the side."
+    },
+    {
+        "target": "B0067LQ6M2",
+        "captions": [
+            "is a patterned dress",
+            "is more flowy and flirty"
+        ],
+        "candidate": "B0066CUYHK",
+        "description": "Black sleeveless dress with a cowl neck and pleated waist."
+    },
+    {
+        "target": "B005V3N4E0",
+        "captions": [
+            "is black with long sleeves",
+            "has more lace and looser skirt"
+        ],
+        "candidate": "B006MOS5IM",
+        "description": "The black dress features a scalloped neckline, a fitted bodice, and a peplum detail on the right side."
+    },
+    {
+        "target": "B00741MD2Q",
+        "captions": [
+            "is white and has no sleeves",
+            "is cream and has tank top sleeves"
+        ],
+        "candidate": "B0091R7GBE",
+        "description": "The black and gold dress features a geometric pattern, a V-neckline, and three-quarter sleeves."
+    },
+    {
+        "target": "B0030MIDIQ",
+        "captions": [
+            "is white and blue",
+            "has a higher neckline and no pattern"
+        ],
+        "candidate": "B0030MI3AE",
+        "description": "The sleeveless black and white dress features a floral print, a plunging neckline, and a fitted silhouette."
+    },
+    {
+        "target": "B0044BBN52",
+        "captions": [
+            "half sleeves short black dress",
+            "black"
+        ],
+        "candidate": "B005XIDI4E",
+        "description": "The yellow and white tiered dress with spaghetti straps and a drawstring waist is a stylish summer outfit."
+    },
+    {
+        "target": "B005X0RK96",
+        "captions": [
+            "is shorter with white stripes",
+            "has black and white stripes"
+        ],
+        "candidate": "B00H3QRPPW",
+        "description": "The black and gold dress features a criss-cross design on the back, a fitted skirt, and a low back."
+    },
+    {
+        "target": "B00CZBUOGC",
+        "captions": [
+            "Is more animated and colorful",
+            "is darker with short sleeves"
+        ],
+        "candidate": "B00A0S760O",
+        "description": "V-neck purple dress with 3/4 sleeves, ruching detail, and a subtle sheen."
+    },
+    {
+        "target": "B003OPYYEG",
+        "captions": [
+            "purple dress with black belt",
+            "is shorter floral patterned and has a belt"
+        ],
+        "candidate": "B003MQPIUQ",
+        "description": "A purple, blue, and orange sleeveless button-down dress with floral embroidery on the front."
+    },
+    {
+        "target": "B00DR8UJ08",
+        "captions": [
+            "is patterned and more flowy.",
+            "Is less colorful"
+        ],
+        "candidate": "B009LIFE80",
+        "description": "The lace jacket is gray, long-sleeved, and has a belt."
+    },
+    {
+        "target": "B005H1Z6CE",
+        "captions": [
+            "Is longer and more formal",
+            "is a little longer on the bottom."
+        ],
+        "candidate": "B00AVWKDTK",
+        "description": "Black sleeveless dress with a V-neckline and a pleated skirt."
+    },
+    {
+        "target": "B0078LJ5JQ",
+        "captions": [
+            "is more transparent",
+            "is solid royal blue"
+        ],
+        "candidate": "B007B8692M",
+        "description": "The red and orange maxi dress with spaghetti straps and a high-low hemline is a stylish and trendy piece of clothing."
+    },
+    {
+        "target": "B00BY3FON0",
+        "captions": [
+            " and white and grey argyle pattern in the middle",
+            " looser sleeves"
+        ],
+        "candidate": "B004J9CI6M",
+        "description": "The black and white checkered dress with a waist tie is a stylish and comfortable piece of clothing."
+    },
+    {
+        "target": "B008IGU56C",
+        "captions": [
+            "is white",
+            " halter neck"
+        ],
+        "candidate": "B007WA13PC",
+        "description": "The black dress features a fitted design with a round neckline and short sleeves, and it is adorned with a gold chain necklace and a gold bracelet."
+    },
+    {
+        "target": "B00BD03JWM",
+        "captions": [
+            "Has a solid fabric with silver studs",
+            "sexy and shapes to the body"
+        ],
+        "candidate": "B00AX35G4O",
+        "description": "The black dress features a sheer neckline and a gold-colored pattern, with a flared skirt and a fitted bodice."
+    },
+    {
+        "target": "B00FS7K0HI",
+        "captions": [
+            "has plain pattern",
+            "is red with no frills"
+        ],
+        "candidate": "B004OHD7VY",
+        "description": "The red strapless gown features a sweetheart neckline, a fitted bodice, and a flowing skirt with a floral pattern."
+    },
+    {
+        "target": "B00D860T5O",
+        "captions": [
+            " grey",
+            "is long and white"
+        ],
+        "candidate": "B00CZ589VA",
+        "description": "A strapless light green dress with a ruffle flower design and a pleated skirt."
+    },
+    {
+        "target": "B006W6PZVK",
+        "captions": [
+            "is shorter with purple and black designs",
+            "is black with colorful pattern"
+        ],
+        "candidate": "B00CPYIJH0",
+        "description": "The purple dress features a deep V-neckline, short sleeves, and a fitted waist with a belt."
+    },
+    {
+        "target": "B006VVMRQW",
+        "captions": [
+            "is blue",
+            "is black and more professional"
+        ],
+        "candidate": "B00DGPG0SC",
+        "description": "Blue maxi dress with thin straps, yellow sandals, and a silver bracelet."
+    },
+    {
+        "target": "B00BRBEBE2",
+        "captions": [
+            "is longer and has floral design",
+            "has colorful floral print with no straps"
+        ],
+        "candidate": "B00CLZZYQM",
+        "description": "The striped tank top is light gray with white stripes and a v-neckline."
+    },
+    {
+        "target": "B00ELNWU5K",
+        "captions": [
+            "sleeveless",
+            "has no sleeves and multiple stripes"
+        ],
+        "candidate": "B00B9R6GOC",
+        "description": "The brown leopard print dress has a fitted design with a cowl neck and 3/4 sleeves."
+    },
+    {
+        "target": "B00DUFXFWW",
+        "captions": [
+            "is simpler cut with colorful embroidery",
+            "Browner with shorter sleeves"
+        ],
+        "candidate": "B0051SQLA4",
+        "description": "A maroon dress with a V-neck, embroidered design, and a drawstring waist."
+    },
+    {
+        "target": "B005UEVJ06",
+        "captions": [
+            "Has a dark top and lighter bottom.",
+            "has more color patterns"
+        ],
+        "candidate": "B0096MXXC0",
+        "description": "The lace dress is beige, sleeveless, and has a sweetheart neckline."
+    },
+    {
+        "target": "B001ASBT0Q",
+        "captions": [
+            "is sleeveless with zipper in center.",
+            "has a zipper front"
+        ],
+        "candidate": "B008EMCCFC",
+        "description": "Black sleeveless dress with a flared skirt, black and gold high heels, and a black and gold belt."
+    },
+    {
+        "target": "B008NC8A68",
+        "captions": [
+            "is pink and has longer sleeves",
+            "is pink with sleeves and belted"
+        ],
+        "candidate": "B005BWQMHW",
+        "description": "Grey sleeveless dress with a loose fit and a subtle pattern"
+    },
+    {
+        "target": "B0098BV4P2",
+        "captions": [
+            "Is black and sexy dress",
+            "is green colored and no sleeves"
+        ],
+        "candidate": "B00BLZGHTQ",
+        "description": "Black sleeveless dress with a ruched design, black clutch with a chain strap, and a black necklace."
+    },
+    {
+        "target": "B00A9SQCQ4",
+        "captions": [
+            "sleeveless and has a flared skirt",
+            "is girly and sporty"
+        ],
+        "candidate": "B0084JU6JE",
+        "description": "Black mini dress with belt, short sleeves, and a v-neckline."
+    },
+    {
+        "target": "B007KJ0I3I",
+        "captions": [
+            "is pink with short sleeves",
+            "is pink and long-sleeve"
+        ],
+        "candidate": "B009EU9GHA",
+        "description": "The colorful sleeveless dress features a floral print and a high neckline."
+    },
+    {
+        "target": "B00C59LZZS",
+        "captions": [
+            "is long sleeved",
+            "is more dark and less red"
+        ],
+        "candidate": "B00D3YFSRA",
+        "description": "The orange dress has a V-neckline, a fitted bodice, and a flowing skirt with a ruffled hem."
+    },
+    {
+        "target": "B00604Z1UY",
+        "captions": [
+            "is sexier and checked red and white",
+            "is red and white and more fitted"
+        ],
+        "candidate": "B003JH7YAK",
+        "description": "The striped dress features a black and white pattern, a black belt, and a button-up front."
+    },
+    {
+        "target": "B00A0JHI5Q",
+        "captions": [
+            "is dark in color with short sleeves",
+            " tighter black"
+        ],
+        "candidate": "B00C3ZAXR0",
+        "description": "The black and white long dress with geometric patterns and a high neck is a stylish and trendy piece of clothing."
+    },
+    {
+        "target": "B00BG8XYR6",
+        "captions": [
+            "is shorter with a fitted waist",
+            "Is shorter and more ruched"
+        ],
+        "candidate": "B004ZIGJDU",
+        "description": "A halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter hal"
+    },
+    {
+        "target": "B00BN3FOA4",
+        "captions": [
+            " is more casual",
+            "is in solid black."
+        ],
+        "candidate": "B008006EU2",
+        "description": "Red and black sleeveless dress with a black and white pattern, with a V-neckline and a black belt."
+    },
+    {
+        "target": "B0094GAVJ6",
+        "captions": [
+            "is black and shorter",
+            "is black and tan"
+        ],
+        "candidate": "B00E3GFPFW",
+        "description": "The dress is a flowy, light-colored, sleeveless, and tiered maxi dress with a floral print."
+    },
+    {
+        "target": "B00CHS13P4",
+        "captions": [
+            "is darker",
+            "is darker in color"
+        ],
+        "candidate": "B00CHS4EMS",
+        "description": "The pink and white floral dress with short sleeves and a pleated skirt is a stylish and comfortable choice for a casual day out."
+    },
+    {
+        "target": "B00196XK4W",
+        "captions": [
+            " orange print with scoop neck",
+            "black and white stripes and strappy"
+        ],
+        "candidate": "B004X5B6J2",
+        "description": "A pink and black floral print dress with short sleeves and a V-neckline."
+    },
+    {
+        "target": "B008OZTH1G",
+        "captions": [
+            "is lighter and longer",
+            "Has larger stripes"
+        ],
+        "candidate": "B006J3YAD0",
+        "description": "The clothing item is a sleeveless, knee-length dress with a colorful, abstract pattern, a high-low hem, and a fitted waist."
+    },
+    {
+        "target": "B002VLHM4S",
+        "captions": [
+            "has buttoned front and looser fit",
+            "is blue and more open"
+        ],
+        "candidate": "B007ECF8U4",
+        "description": "The sleeveless dress features a floral print with orange, pink, and green colors, and a pink trim at the neckline."
+    },
+    {
+        "target": "B00A3Q8G8Y",
+        "captions": [
+            "Is less revealing and more basic",
+            "is tighter"
+        ],
+        "candidate": "B0073114DG",
+        "description": "The black dress features a one-shoulder design, a ruched bodice, and a high slit on the side."
+    },
+    {
+        "target": "B00CEIULHS",
+        "captions": [
+            "Is longer and more dressy.",
+            "Longer and more blue"
+        ],
+        "candidate": "B003HP6DLK",
+        "description": "A black one-shoulder dress with a ruffled flower detail on the shoulder."
+    },
+    {
+        "target": "B003AU5JNA",
+        "captions": [
+            "is white and have shorter sleeves",
+            "white ruffled v-neck sleeveless shirtwaisted dress"
+        ],
+        "candidate": "B00E3U0VK2",
+        "description": "Red dress with 3/4 sleeves, V-neck, and ruching at the waist, with a side slit."
+    },
+    {
+        "target": "B00DQ5R8S8",
+        "captions": [
+            "is white with red rose pattern",
+            "has a lot looser fitting dress in floral white print."
+        ],
+        "candidate": "B008BA7THS",
+        "description": "Red strapless dress with a flower design, shiny satin material, and a high waistline."
+    },
+    {
+        "target": "B009ERVM1G",
+        "captions": [
+            "has shorter sleeves with light grey color",
+            "is one-tone and short sleeved"
+        ],
+        "candidate": "B003TLODL4",
+        "description": "A white and black dress with a pleated top and a black skirt, with a woman wearing it and a pair of high heels."
+    },
+    {
+        "target": "B003XT0FKA",
+        "captions": [
+            "is a lighter color with less pattern",
+            "A solid blue dress"
+        ],
+        "candidate": "B003XSWAKE",
+        "description": "A green halter strap dress with a floral print and a pleated skirt."
+    },
+    {
+        "target": "B008J17TZQ",
+        "captions": [
+            "is sequined short dress with short sleeves",
+            "is shorter and metallic in color with sleeves"
+        ],
+        "candidate": "B0080EMFGU",
+        "description": "The strapless leopard print dress features a fitted bodice with a peplum detail and a knee-length hem."
+    },
+    {
+        "target": "B008OC8LAC",
+        "captions": [
+            "is shorter and belted",
+            "is in solid red."
+        ],
+        "candidate": "B0084DKHUI",
+        "description": "Blue lace dress with short sleeves, a round neckline, and a pleated skirt, worn with black boots."
+    },
+    {
+        "target": "B006586QIG",
+        "captions": [
+            "has no sleeves and more shiner",
+            "Is sexier and shinier"
+        ],
+        "candidate": "B00EIK88G6",
+        "description": "The black and beige striped sweater is a stylish and trendy piece of clothing that can be worn for both casual and formal occasions."
+    },
+    {
+        "target": "B005DC39J4",
+        "captions": [
+            "has cold shouldersand is animal print",
+            "has longer sleeves"
+        ],
+        "candidate": "B00BR3OXYS",
+        "description": "Red and yellow dress with a belt and a pattern of gold chains."
+    },
+    {
+        "target": "B00ED7W9GO",
+        "captions": [
+            "is a black maxi dress",
+            "is black and more elegant"
+        ],
+        "candidate": "B00DDHBOYI",
+        "description": "White sleeveless dress with a pink ribbon waist, V-neckline, and a flowy skirt."
+    },
+    {
+        "target": "B00BBUQZXO",
+        "captions": [
+            "has yellow floral prints",
+            "is more colorful and longer"
+        ],
+        "candidate": "B004IK9BLC",
+        "description": "White sleeveless dress with black embroidery and a V-neckline."
+    },
+    {
+        "target": "B00CS1DE16",
+        "captions": [
+            "is blue mid length fitted dress with short laced sleeves",
+            "is plain blue"
+        ],
+        "candidate": "B00CW9N89M",
+        "description": "The elegant cream-colored lace dress with a shimmering skirt and a round neckline."
+    },
+    {
+        "target": "B00D8DW8CY",
+        "captions": [
+            "is shorter with a brown belt",
+            "has a shorter skirt and sleeves"
+        ],
+        "candidate": "B00BM7E6AU",
+        "description": "Black and white maxi dress with a paisley pattern, strapless, and a high waist."
+    },
+    {
+        "target": "B009YKC8DY",
+        "captions": [
+            "is sleeveless and printed",
+            "no sleeves and a grey pattern"
+        ],
+        "candidate": "B005LBYG4Y",
+        "description": "Red dress with a deep V-neck, long sleeves, and a wrap detail at the waist."
+    },
+    {
+        "target": "B00CXXU0BQ",
+        "captions": [
+            "is whiter and has a waist band",
+            " darker blue and has straps"
+        ],
+        "candidate": "B00AEB94S4",
+        "description": "The blue halter neck maxi dress with a high slit and a low back design."
+    },
+    {
+        "target": "B007KSGUDQ",
+        "captions": [
+            "is shorter and darker",
+            "is more white"
+        ],
+        "candidate": "B007PKEC6Q",
+        "description": "Orange dress with thin straps, gathered bodice, and a gold belt with a bow on the front."
+    },
+    {
+        "target": "B003DKXLBO",
+        "captions": [
+            "is v necked with solid black print",
+            "is in solid black"
+        ],
+        "candidate": "B008CPTBIC",
+        "description": "The sleeveless dress features a high neck and a busy, animal print design."
+    },
+    {
+        "target": "B008ZAYKPS",
+        "captions": [
+            "its dark blue in color",
+            "is blue with thinner sleeves"
+        ],
+        "candidate": "B00BWYRQOQ",
+        "description": "Black lace dress with short sleeves and a round neckline, featuring a flowy skirt and a sandal strap."
+    },
+    {
+        "target": "B008PAJYPY",
+        "captions": [
+            "is longer with floral pattern",
+            "Is shorter and tighter fit in purple"
+        ],
+        "candidate": "B004FLJJ8O",
+        "description": "The strapless maxi dress features a colorful abstract pattern, a sweetheart neckline, and a tie at the waist."
+    },
+    {
+        "target": "B00DWGK5UY",
+        "captions": [
+            "is black and white with a black belt",
+            "is darker in color and more flowy"
+        ],
+        "candidate": "B00C11OI1S",
+        "description": "The brown dress features a pleated design, thin straps, and a gold-colored embellishment on the bodice."
+    },
+    {
+        "target": "B00CG06R0Y",
+        "captions": [
+            "is less revealing and consistent with one color",
+            "Is more revealing"
+        ],
+        "candidate": "B00BUJEBB4",
+        "description": "A purple and blue maxi dress with a purple and blue print, sleeveless, and a V-neckline."
+    },
+    {
+        "target": "B0070QMTYW",
+        "captions": [
+            "royal blue collared short dress",
+            "is a blue shirt dress and is shorter and casual"
+        ],
+        "candidate": "B009LIK4XA",
+        "description": "The white dress has a black leather sleeve and a black belt."
+    },
+    {
+        "target": "B00BP0WKPW",
+        "captions": [
+            "is shorter",
+            "is white and shorter length with belt"
+        ],
+        "candidate": "B00AVWT55S",
+        "description": "Blue and white sleeveless dress with a floral pattern, high waisted, and a fitted bodice."
+    },
+    {
+        "target": "B00CXAPHHG",
+        "captions": [
+            "More vibrant and not ruffled",
+            "is red and green and has less frills"
+        ],
+        "candidate": "B00CX4237O",
+        "description": "A pink and red layered ruffled dress with a lace top and a pink bottom."
+    },
+    {
+        "target": "B0080E5N0K",
+        "captions": [
+            "is more of white than black and a round neck",
+            "has no sleeves and black and white color"
+        ],
+        "candidate": "B008IEF7NK",
+        "description": "A sleeveless black and white dress with a white waistband and a black bow."
+    },
+    {
+        "target": "B008IE0V9U",
+        "captions": [
+            "has shorter sleeves and solid color",
+            "has shorter with no sleeves and more burgundy"
+        ],
+        "candidate": "B002P6IOHI",
+        "description": "Black floral maxi dress with short sleeves, black sandals, and a bracelet."
+    },
+    {
+        "target": "B00AYXA7TM",
+        "captions": [
+            "is a floral print dress",
+            "is lighter orange and longer sleeves with belt"
+        ],
+        "candidate": "B006LFT3RY",
+        "description": "Red sleeveless lace dress with a round neckline and a flared skirt."
+    },
+    {
+        "target": "B005M0ICIK",
+        "captions": [
+            "Is a bit shorter and more  fitted",
+            "has a slightly higher neckline"
+        ],
+        "candidate": "B009RVDEMO",
+        "description": "The black long sleeve dress is designed with a round neckline and has a slim fit."
+    },
+    {
+        "target": "B005EVNJ1C",
+        "captions": [
+            "is printed and short sleeved",
+            "Is more sexy and colorful"
+        ],
+        "candidate": "B003RRWD62",
+        "description": "Black wrap dress with long sleeves, V-neckline, and ruffles on the sleeves and waist."
+    },
+    {
+        "target": "B006WRXVY2",
+        "captions": [
+            "has a stripy pattern",
+            "has yellow and purple stripes"
+        ],
+        "candidate": "B008XOBYGE",
+        "description": "Red sleeveless dress with ruffled neckline and a V-neck."
+    },
+    {
+        "target": "B00BXXLJTY",
+        "captions": [
+            "is pink with shorter sleeves",
+            "is pink with short sleeves"
+        ],
+        "candidate": "B00B0QC772",
+        "description": "The blue dress features a white collar, long sleeves, and a high waistline, with a relaxed fit and a knee-length hem."
+    },
+    {
+        "target": "B00E1BG4Y0",
+        "captions": [
+            "is tighter and no collar",
+            "is shorter"
+        ],
+        "candidate": "B00C65Y800",
+        "description": "The navy blue dress features a white collar, a zipper, and a small logo on the chest."
+    },
+    {
+        "target": "B0086SFRHO",
+        "captions": [
+            "has no collar and is solid grey",
+            "is one color"
+        ],
+        "candidate": "B007TWJFNU",
+        "description": "The image shows a sleeveless, button-up blouse in a mauve color with a fitted black pencil skirt."
+    },
+    {
+        "target": "B00AHGAONU",
+        "captions": [
+            "is short and black",
+            "darker and shorter"
+        ],
+        "candidate": "B00D503P5Y",
+        "description": "The light blue maxi dress features a cutout neckline, a beaded waist, and a flowing skirt."
+    },
+    {
+        "target": "B003VYAV5Q",
+        "captions": [
+            "has thinner straps and is black",
+            "is darker and has thin straps"
+        ],
+        "candidate": "B00F0K4N4O",
+        "description": "The silver sequined dress is sleeveless, has a V-neckline, and is a mini dress."
+    },
+    {
+        "target": "B008L1P582",
+        "captions": [
+            "is black with a u neck shape and short sleeves",
+            "is black with a higher neckline"
+        ],
+        "candidate": "B0058YS7FI",
+        "description": "Blue dress with a tie waist, V-neck, and 3/4 sleeves, with a high-low hemline."
+    },
+    {
+        "target": "B008RBA9BO",
+        "captions": [
+            "is louder and shorter",
+            "has more graphics"
+        ],
+        "candidate": "B00GO987SS",
+        "description": "Black long-sleeve dress with a V-neckline and a pleated skirt, with a black high-heeled shoe."
+    },
+    {
+        "target": "B00C19J7GG",
+        "captions": [
+            "is solid red and slimmer",
+            "is less open and flowing"
+        ],
+        "candidate": "B00APFEPRY",
+        "description": "A strapless purple and white ball gown with a sweetheart neckline, ruffles, and floral embroidery."
+    },
+    {
+        "target": "B00EIQK9WQ",
+        "captions": [
+            "has horizontal stipes and more colours",
+            "is short sleeves and stripped with different colors"
+        ],
+        "candidate": "B00EIQLXTE",
+        "description": "Red dress with a V-neckline, short sleeves, and a tie at the waist."
+    },
+    {
+        "target": "B004NGNG44",
+        "captions": [
+            "is longer with straps and bow belt",
+            " long sleeved"
+        ],
+        "candidate": "B004MGVBPG",
+        "description": "The black dress features ruffled layers, a V-neckline, and a fitted silhouette."
+    },
+    {
+        "target": "B00AXU14BQ",
+        "captions": [
+            "is shorter and is blue",
+            "is blue and is shorter"
+        ],
+        "candidate": "B006W1TYE4",
+        "description": "The brown and red maxi dress features a floral design, spaghetti straps, and a V-neckline."
+    },
+    {
+        "target": "B007RB7C6A",
+        "captions": [
+            "is white and black",
+            "is lighter on the top"
+        ],
+        "candidate": "B007GAFWB4",
+        "description": "The black and beige dress features a belt, a round neckline, and a fitted silhouette."
+    },
+    {
+        "target": "B007WATNFE",
+        "captions": [
+            " with an american flag in the middle frame",
+            " has a graphic"
+        ],
+        "candidate": "B009DI5V2C",
+        "description": "Purple dress with black trim, 3/4 length sleeves, and a black belt."
+    },
+    {
+        "target": "B009MPNO98",
+        "captions": [
+            "is a longer solid black sleeveless",
+            "is longer and all black"
+        ],
+        "candidate": "B00CSI12W2",
+        "description": "The black and white dress features a zebra print design, a round neckline, short sleeves, and a flared skirt."
+    },
+    {
+        "target": "B008DCP99Y",
+        "captions": [
+            "Is black with long sleeves.",
+            "is more black and has less pattern"
+        ],
+        "candidate": "B00ATLH0HQ",
+        "description": "The black and pink striped dress with a green belt, featuring a button-down front and long sleeves."
+    },
+    {
+        "target": "B005W3E2PE",
+        "captions": [
+            "is shorter and purple",
+            "magenta with thicker straps"
+        ],
+        "candidate": "B005UXSVVM",
+        "description": "The black maxi dress features a square neckline, thin straps, and a draped design."
+    },
+    {
+        "target": "B00ALTB0PY",
+        "captions": [
+            "is written Jones New York",
+            "na"
+        ],
+        "candidate": "B007520NXU",
+        "description": "The black dress features a pleated skirt, a belt, and a round neckline."
+    },
+    {
+        "target": "B00A13BI2U",
+        "captions": [
+            "is shorter with flared sleeves",
+            "is darker and shorter"
+        ],
+        "candidate": "B00BSWF93W",
+        "description": "Dress with long sleeves, blue color, fitted, and a round neckline."
+    },
+    {
+        "target": "B0091QS2YU",
+        "captions": [
+            "is longer and solid white like gown",
+            "is longer"
+        ],
+        "candidate": "B0097IWXM4",
+        "description": "A blue strapless dress with a rhinestone-studded belt and a large bow on the side."
+    },
+    {
+        "target": "B006PHEWE2",
+        "captions": [
+            "has a belt and a lower neck line",
+            "is more darker"
+        ],
+        "candidate": "B008D9AMUI",
+        "description": "The black halter dress features a halter neckline, a fitted bodice, and a flared skirt."
+    },
+    {
+        "target": "B007I6BXOG",
+        "captions": [
+            "is green with no sleeves",
+            "is sleeveless in blue."
+        ],
+        "candidate": "B005915366",
+        "description": "Black ruched mini dress with long sleeves, square neckline, and a ruched waist."
+    },
+    {
+        "target": "B009PPPO4I",
+        "captions": [
+            "is a little longer with a high-low hem",
+            "is black and magenta"
+        ],
+        "candidate": "B004USQGFQ",
+        "description": "Black dress with 3/4 sleeves, wrap design, and a tie at the waist."
+    },
+    {
+        "target": "B007CTM8S4",
+        "captions": [
+            "is black and longer",
+            " belt and short sleeves."
+        ],
+        "candidate": "B006QII0FC",
+        "description": "The sleeveless, knee-length dress features a geometric pattern and a fitted silhouette."
+    },
+    {
+        "target": "B00CLF477O",
+        "captions": [
+            "is shorter and stripped",
+            "is striped in a different design with sleeves."
+        ],
+        "candidate": "B00BIPLLKE",
+        "description": "The blue and green dress has a leopard print design, a round neckline, and a waistband."
+    },
+    {
+        "target": "B00B7RRF1M",
+        "captions": [
+            "is tye dyed and shorter",
+            "is sleeveless with a different pattern"
+        ],
+        "candidate": "B007XXL5RO",
+        "description": "A blue and black striped maxi dress with a halter neck design and a loose fit."
+    },
+    {
+        "target": "B00D7847ZQ",
+        "captions": [
+            "long black dress",
+            "is much longer and has no sleeves"
+        ],
+        "candidate": "B005SGATXE",
+        "description": "Turquoise maxi dress with a tie waist, short sleeves, and a round neckline."
+    },
+    {
+        "target": "B005KLV20Q",
+        "captions": [
+            "is purple with short sleeves",
+            "is purple with short sleeves"
+        ],
+        "candidate": "B007IS2ALE",
+        "description": "The sleeveless brown and black floral print dress with a V-neckline and a flared skirt is a stylish choice for a night out."
+    },
+    {
+        "target": "B002PJ5EOQ",
+        "captions": [
+            "is tighter fitting with floral print",
+            "is red with floral pattern"
+        ],
+        "candidate": "B002KHN8A0",
+        "description": "A halter-style blue dress with a ruched bodice, a jeweled clasp, and a flowy skirt."
+    },
+    {
+        "target": "B006WJC8K8",
+        "captions": [
+            "is shorter",
+            "is striped and a bit shorter"
+        ],
+        "candidate": "B006W1VGOU",
+        "description": "The white and black strapless maxi dress with a black belt and silver heels."
+    },
+    {
+        "target": "B009MP8HVS",
+        "captions": [
+            "Is more elegant",
+            "has three quarter length sleeves and is fully patterned"
+        ],
+        "candidate": "B009LUJQ7S",
+        "description": "The red and white chevron print dress with a navy blue and cream top."
+    },
+    {
+        "target": "B00858S4M0",
+        "captions": [
+            "Is more revealing and whimsical",
+            "is animal print with longer sleeves"
+        ],
+        "candidate": "B007XD6H9A",
+        "description": "A blue and white dress with a white top and blue skirt, featuring a white waistband and blue trim."
+    },
+    {
+        "target": "B009AO2FS2",
+        "captions": [
+            "is longer and less revealing",
+            "is longer and less revealing"
+        ],
+        "candidate": "B007XDE70G",
+        "description": "Black long-sleeve dress with a sweetheart neckline and a fitted silhouette."
+    },
+    {
+        "target": "B00632P0MC",
+        "captions": [
+            "has a tighter fit and is sequence",
+            "is shorter and shinier"
+        ],
+        "candidate": "B0037Z7LOI",
+        "description": "White sleeveless lace dress with a white ribbon and a white tulle layer at the bottom."
+    },
+    {
+        "target": "B00E1QB62A",
+        "captions": [
+            "is bright green with a brown belt",
+            "is green"
+        ],
+        "candidate": "B00CDZCIDC",
+        "description": "A dark green dress with ruffles on the sleeves and a round neckline, with a gold necklace and a gold pendant."
+    },
+    {
+        "target": "B00AQTODZ8",
+        "captions": [
+            "has thicker sleeves and solid black",
+            "Is black and more flowing"
+        ],
+        "candidate": "B00ATYH2DA",
+        "description": "The pink long dress with a floral pattern and a pleated design, featuring a purple and black sequined bodice."
+    },
+    {
+        "target": "B00BOEMFMC",
+        "captions": [
+            "is more blue",
+            "too loud"
+        ],
+        "candidate": "B00BOEM842",
+        "description": "Purple maxi dress with a floral print, sleeveless, V-neck, and a ruched waist."
+    },
+    {
+        "target": "B0077V74J0",
+        "captions": [
+            "has lots of pink ruffles",
+            "is pink and more frilly"
+        ],
+        "candidate": "B007T0JD98",
+        "description": "The turquoise strapless gown features a beaded bodice, a high slit, and a flowing chiffon skirt."
+    },
+    {
+        "target": "B009KQVPPE",
+        "captions": [
+            "has very short sleeves",
+            "is cap sleeved two piece outfit."
+        ],
+        "candidate": "B00APC9I8S",
+        "description": "Black lace dress with 3/4 length sleeves, knee-length, and a scalloped hem."
+    },
+    {
+        "target": "B00B1OSUM4",
+        "captions": [
+            "Is a darker",
+            "is black and more revealing"
+        ],
+        "candidate": "B00DQ51R2G",
+        "description": "The elegant cream-colored dress features a V-neckline, a fitted bodice, and a flared skirt with a sheer overlay."
+    },
+    {
+        "target": "B00902B6BQ",
+        "captions": [
+            "is black and has a u shaped neck",
+            "is less red and more black"
+        ],
+        "candidate": "B007WAEN86",
+        "description": "The red dress features a lace-up neckline, long sleeves, and a fitted design, with a subtle sheen to the fabric."
+    },
+    {
+        "target": "B00BRUTG66",
+        "captions": [
+            "is no shoulder and has belt",
+            "is strapless with a belt and more red in colour"
+        ],
+        "candidate": "B00BUZHBGA",
+        "description": "The peach-colored peplum top features a white lace trim and a white zigzag pattern on the bodice."
+    },
+    {
+        "target": "B00DH06XU6",
+        "captions": [
+            "is floor long and printed black and white",
+            "is printed and looser"
+        ],
+        "candidate": "B00EPLZNXY",
+        "description": "Black tank top with a scoop neck and thin straps"
+    },
+    {
+        "target": "B007V1QDNO",
+        "captions": [
+            "has blue yellow abstract print and is shorter",
+            "is more colorful"
+        ],
+        "candidate": "B005SN1PVC",
+        "description": "The black dress features a high neckline with a beaded design, a fitted skirt, and a pair of black high heels."
+    },
+    {
+        "target": "B008SCGZVK",
+        "captions": [
+            "its longer and more colorful print",
+            "has colorful stripes"
+        ],
+        "candidate": "B007GB209U",
+        "description": "The black dress features a high neckline, button down front, and a fitted silhouette."
+    },
+    {
+        "target": "B0052C9J3U",
+        "captions": [
+            "Is a strapless geometric pattern dress.",
+            "has more blue and more designs"
+        ],
+        "candidate": "B0052C9JUI",
+        "description": "The black one-shoulder evening gown features a fitted bodice with a ruched design and a flowing skirt with a sheer overlay."
+    },
+    {
+        "target": "B00EDQ5962",
+        "captions": [
+            "has thinner straps and is lighter",
+            "Is lighter in color and more modest"
+        ],
+        "candidate": "B00AX35G4O",
+        "description": "The black dress features a sheer neckline and a gold-colored pattern, with a flared skirt and a fitted bodice."
+    },
+    {
+        "target": "B00B8QNLA6",
+        "captions": [
+            "Is belted",
+            "is short sleeves and bold green printed"
+        ],
+        "candidate": "B00CGTC9DY",
+        "description": "The red and white dress has a red and white pattern, a white trim, and a red and white hem."
+    },
+    {
+        "target": "B003DZ0ZQ8",
+        "captions": [
+            " blue",
+            "is pink and white"
+        ],
+        "candidate": "B007RM3HMW",
+        "description": "The red halter neck dress with a brown belt and pleated skirt is a stylish and elegant piece of clothing."
+    },
+    {
+        "target": "B007TFM2YQ",
+        "captions": [
+            "is more blue and revealing",
+            "is blue and more revealing"
+        ],
+        "candidate": "B0088MVHJ0",
+        "description": "Black knee-length dress with 3/4 length sleeves, cut-out neckline, and a pleated waist."
+    },
+    {
+        "target": "B00CQ9EN10",
+        "captions": [
+            "if more flowing",
+            "more flowing and dark"
+        ],
+        "candidate": "B00DSDMNCE",
+        "description": "Black maxi dress with a scoop neckline, sleeveless design, and a relaxed fit."
+    },
+    {
+        "target": "B005UXBYNE",
+        "captions": [
+            "is a two color dress with less sleeves",
+            "is two-toned and tighter"
+        ],
+        "candidate": "B007FP4YBO",
+        "description": "Red dress with draped fabric, short sleeves, and a cinched waist."
+    },
+    {
+        "target": "B0041FILI8",
+        "captions": [
+            "is off one shoulder",
+            "is red with one strap"
+        ],
+        "candidate": "B00F9YP0U2",
+        "description": "A black and white checkered dress with a red bird on the skirt, a white collar, and 3/4 length sleeves."
+    },
+    {
+        "target": "B0051931YC",
+        "captions": [
+            "has more sequence and is darker",
+            "is more pink and less revealing"
+        ],
+        "candidate": "B008CQJ9D8",
+        "description": "The black and white striped dress features a V-neckline, a drawstring waist, and a short hemline."
+    },
+    {
+        "target": "B008595Q9I",
+        "captions": [
+            "is fuchsia pink colored",
+            "is a solid magenta color"
+        ],
+        "candidate": "B00B0Q6VC4",
+        "description": "Green sleeveless top with a black undershirt, black leggings, and a smile."
+    },
+    {
+        "target": "B002ZG8RUW",
+        "captions": [
+            "has only one color with a furrier bottom",
+            "has no sleeves"
+        ],
+        "candidate": "B003YDYR5E",
+        "description": "Black dress with 3/4 sleeves, white and silver beading at the hem, and a scoop neck."
+    },
+    {
+        "target": "B004OBZ9PC",
+        "captions": [
+            "Is black solid color.",
+            "is black with shorter sleeves"
+        ],
+        "candidate": "B0069TCQ3A",
+        "description": "The colorful floral print dress with a white background and a white belt."
+    },
+    {
+        "target": "B00E1UZ63Q",
+        "captions": [
+            "Longer and no stripes",
+            "has long sleeves"
+        ],
+        "candidate": "B008NG1LH4",
+        "description": "Black strapless dress with white stripes and a belt"
+    },
+    {
+        "target": "B00DBJZAFC",
+        "captions": [
+            "is blue in color tight skirt and slim fit",
+            "has side slits and is blue"
+        ],
+        "candidate": "B0054GX868",
+        "description": "Black floral dress with spaghetti straps, a V-neckline, and a gathered waist."
+    },
+    {
+        "target": "B00A36MTLE",
+        "captions": [
+            "is longer",
+            "has shorter sleeves and no neck trim"
+        ],
+        "candidate": "B00A36NLFW",
+        "description": "The black suit with a white flower on the lapel and a pearl necklace."
+    },
+    {
+        "target": "B008PCHXYG",
+        "captions": [
+            "has short sleeves and is brown and black",
+            "has a tan short sleeved top"
+        ],
+        "candidate": "B005GYGK4A",
+        "description": "A strapless black and white dress with a ruffled bottom, cinched at the waist with a black ribbon."
+    },
+    {
+        "target": "B0097JHMOW",
+        "captions": [
+            "is a pale purple with spaghetti straps",
+            "is a more clean white without arms."
+        ],
+        "candidate": "B0094N8PX8",
+        "description": "Off-shoulder wedding dress with lace and floral embroidery, white color, and a scalloped hem."
+    },
+    {
+        "target": "B00A16FGUW",
+        "captions": [
+            "is more casual with tank top",
+            "has stripes and is black and white"
+        ],
+        "candidate": "B00BM9KPSK",
+        "description": "The green dress has short sleeves, a round neckline, and a relaxed fit."
+    },
+    {
+        "target": "B001VEHYLW",
+        "captions": [
+            "is lighter",
+            "has straps instead of sleeves and is a brighter pattern"
+        ],
+        "candidate": "B0042ET3NK",
+        "description": "The black dress features a unique design with a large shawl-like detail on the front and a high collar."
+    },
+    {
+        "target": "B006NV6CVG",
+        "captions": [
+            "Is a short white cold shoulder dress with a belt.",
+            "Light & Dark color"
+        ],
+        "candidate": "B003WE9T8U",
+        "description": "Black dress with a V-neckline, long sleeves, and a textured pattern."
+    },
+    {
+        "target": "B00CI42NVA",
+        "captions": [
+            "is off white with black sports and brown belt",
+            "is less revealing and yellow"
+        ],
+        "candidate": "B00D68E1Y4",
+        "description": "A white dress with a black belt and a pattern of birds on it."
+    },
+    {
+        "target": "B008S4CQCU",
+        "captions": [
+            "is dark blue long with a long slit and a single left sleeve",
+            "has one sleeve and is blue"
+        ],
+        "candidate": "B006O3EH7Y",
+        "description": "The black and brown floral maxi dress with short sleeves and a round neckline."
+    },
+    {
+        "target": "B00DQ08TOK",
+        "captions": [
+            "is a turtleneck dress",
+            "is warmer"
+        ],
+        "candidate": "B00AHGCAW8",
+        "description": "The image shows a sleeveless dress with a white base, pink, yellow, and black abstract paint splotches, and a black and white pattern."
+    },
+    {
+        "target": "B00C40YH8U",
+        "captions": [
+            " has no sleeves",
+            "doesn't have sleeves"
+        ],
+        "candidate": "B006ZJ76NE",
+        "description": "Black dress with a pleated bodice, black high heels, and a scoop neckline."
+    },
+    {
+        "target": "B00CEIVAT6",
+        "captions": [
+            "is more casual with sleeves and lighter colored",
+            "deep v"
+        ],
+        "candidate": "B00CIETF8O",
+        "description": "Black dress with purple sash, sleeveless, pleated, and has a purple satin ribbon around the waist."
+    },
+    {
+        "target": "B004RNZKGU",
+        "captions": [
+            "is shorter and has floral print",
+            "is more floral"
+        ],
+        "candidate": "B00B7DOKTQ",
+        "description": "A strapless, blue and white striped maxi dress with a brown belt and flat sandals."
+    },
+    {
+        "target": "B008GZTEMQ",
+        "captions": [
+            "is lighter with an animal print",
+            "has straps instead of sleeves and has a brighter pattern"
+        ],
+        "candidate": "B008PHPA3C",
+        "description": "Black dress with sequins on the top, black shoes, and a white background."
+    },
+    {
+        "target": "B0094D087E",
+        "captions": [
+            "is shorter and shinier",
+            "has pockets and is above the knee"
+        ],
+        "candidate": "B0085J4K4U",
+        "description": "The long, silver, lace dress with a V-neckline and a purple ribbon tied at the waist."
+    },
+    {
+        "target": "B009ZRKV6W",
+        "captions": [
+            "short multi colored dress",
+            "hits above the knee and is striped."
+        ],
+        "candidate": "B009P84EDM",
+        "description": "The black and white maxi dress features a geometric pattern, a V-neckline, and a high slit."
+    },
+    {
+        "target": "B0085JGW3C",
+        "captions": [
+            "patterned and has a higher neckline",
+            "has white"
+        ],
+        "candidate": "B006IN83FW",
+        "description": "A one-shoulder, one-strap, short-sleeved, layered, bright yellow dress with a belt."
+    },
+    {
+        "target": "B0082ABFEA",
+        "captions": [
+            "has no sleeves and two strips at te bottom",
+            "has a pink strip along the bottom without sleeves."
+        ],
+        "candidate": "B007R1PZVE",
+        "description": "The black and white dress features a scoop neck, short sleeves, and a fitted silhouette."
+    },
+    {
+        "target": "B0073AFLI6",
+        "captions": [
+            "is brighter in color",
+            "has more fabric"
+        ],
+        "candidate": "B00A3Q8G8Y",
+        "description": "The black strapless gown with a silver embellishment and a flowing skirt is a stylish and elegant choice for a formal event."
+    },
+    {
+        "target": "B0099NV9N6",
+        "captions": [
+            "Is darker and more patterned",
+            "Is more fitted and fun"
+        ],
+        "candidate": "B007VCCKPS",
+        "description": "Blue polka dot dress with a cutout at the neckline, black high heels, and red lipstick."
+    },
+    {
+        "target": "B00A3UTD5U",
+        "captions": [
+            "black dress with collars and buttons",
+            "is 3/4 sleeves and solid black"
+        ],
+        "candidate": "B00EC135HS",
+        "description": "The green and black dress features a ruffled design, thin straps, and a fitted bodice."
+    },
+    {
+        "target": "B0089E64S6",
+        "captions": [
+            "the provided productut looks more expensive than the desired",
+            "has a higher"
+        ],
+        "candidate": "B00BR6QL7W",
+        "description": "Strapless strapless dress in light brown, with a pleated skirt and a gathered waist."
+    },
+    {
+        "target": "B00FFBEY88",
+        "captions": [
+            "peplum white dress with skirt and top",
+            "is solid white"
+        ],
+        "candidate": "B008HRM9WU",
+        "description": "A yellow strapless dress with a floral pattern and a yellow belt."
+    },
+    {
+        "target": "B00E1MCUY2",
+        "captions": [
+            "is lighter and has shorter sleeves",
+            "is lighter and has shorter sleeves"
+        ],
+        "candidate": "B00E99QK66",
+        "description": "The black jacket is made of a soft, smooth material and has a ruffled design on the front."
+    },
+    {
+        "target": "B005G0482K",
+        "captions": [
+            "has longer sleeves and darker colors",
+            "is sea through"
+        ],
+        "candidate": "B007K4XTKC",
+        "description": "The short, shiny, striped dress with a round neckline and short sleeves."
+    },
+    {
+        "target": "B007WPHBGW",
+        "captions": [
+            "is a half strap",
+            "is more blue with an animal print"
+        ],
+        "candidate": "B006W4WKHE",
+        "description": "A strapless white and black dress with a black belt and a black clutch bag."
+    },
+    {
+        "target": "B00DNKC944",
+        "captions": [
+            "is a bit more colorful",
+            "All pink and puple outlines of designs"
+        ],
+        "candidate": "B00DYB1Q28",
+        "description": "The image shows a purple, pink, and red floral print dress with short sleeves and a round neckline."
+    },
+    {
+        "target": "B003NSXZ94",
+        "captions": [
+            "more simple in solid yellow",
+            "is more promy and is yellow"
+        ],
+        "candidate": "B0053ELL4W",
+        "description": "The pink dress features a satin bodice with a floral design, a matching jacket, and a long lace skirt."
+    },
+    {
+        "target": "B008BMQ50S",
+        "captions": [
+            "has longer sleeves and orange colored",
+            "has longer sleeves"
+        ],
+        "candidate": "B0098QGAWE",
+        "description": "A strapless black dress with a diamond-studded neckline and a black and white striped belt."
+    },
+    {
+        "target": "B00D7FL946",
+        "captions": [
+            "is sleeveless and has a pattern",
+            "Has 2 shoulders and has a pattern"
+        ],
+        "candidate": "B008S4CQCU",
+        "description": "A blue one-shoulder evening gown with a lace sleeve and a thigh-high slit."
+    },
+    {
+        "target": "B00AUQFOTQ",
+        "captions": [
+            "is white with stripes",
+            "has more lace and has straps"
+        ],
+        "candidate": "B00ADIDHBI",
+        "description": "The white wedding dress features a strapless design, a sweetheart neckline, and a fitted bodice adorned with rhinestones."
+    },
+    {
+        "target": "B00AXDA3T2",
+        "captions": [
+            "Is maroon and has straps.",
+            " strapless top"
+        ],
+        "candidate": "B002UWIYTU",
+        "description": "The strapless red dress features a fitted bodice with a ruched design, and a flowing A-line skirt with a decorative beaded detail."
+    },
+    {
+        "target": "B00ECG1RDC",
+        "captions": [
+            "is form fitted with no sleeves",
+            "has sleeves and lighter colors"
+        ],
+        "candidate": "B00CC24T24",
+        "description": "Blue and yellow strapless maxi dress with paisley print and yellow straps."
+    },
+    {
+        "target": "B00A7B7BH2",
+        "captions": [
+            "is more flared and has higher neckline",
+            "has a darker top"
+        ],
+        "candidate": "B00D7OS16G",
+        "description": "The black and white polka dot dress with a white polka dot top, black skirt, and black belt."
+    },
+    {
+        "target": "B0058YS7FI",
+        "captions": [
+            "has longer sleeves and is looser",
+            "identical"
+        ],
+        "candidate": "B0070QMTYW",
+        "description": "Blue shirt with 3/4 sleeves, tie waist, and high-low hemline."
+    },
+    {
+        "target": "B007C2AW1G",
+        "captions": [
+            "is black and white",
+            "is longer and white instead of black"
+        ],
+        "candidate": "B009DMP114",
+        "description": "Black one-shoulder romper with a draped front, featuring a single strap and a side zipper."
+    },
+    {
+        "target": "B0087CI62W",
+        "captions": [
+            "is dark red",
+            "longer"
+        ],
+        "candidate": "B0067M3LGA",
+        "description": "The black and white dress with a black and white pattern, cold shoulder sleeves, and a V-neckline."
+    },
+    {
+        "target": "B006QQPFPW",
+        "captions": [
+            "This dress has a tropical feel",
+            "hawaiian pattern and shallower neck"
+        ],
+        "candidate": "B00DN2E5UI",
+        "description": "The pink sleeveless dress has a V-neckline and a fitted design."
+    },
+    {
+        "target": "B009WJ0MZI",
+        "captions": [
+            "is shorter and lighter",
+            "is more solid colored"
+        ],
+        "candidate": "B009NCHCAM",
+        "description": "A colorful, sleeveless, halter-style dress with a geometric pattern and a black belt."
+    },
+    {
+        "target": "B007WAF0YW",
+        "captions": [
+            "is longer with solid stripes and pockets",
+            "has stripes"
+        ],
+        "candidate": "B008PCI13I",
+        "description": "Blue and white striped dress with 3/4 length sleeves, a round neckline, and a fitted silhouette."
+    },
+    {
+        "target": "B00F4MYSLG",
+        "captions": [
+            "has darker colors",
+            "has a red top and grey bottom with sleeves added to it."
+        ],
+        "candidate": "B00CY942GS",
+        "description": "Green sleeveless dress with a high neck and a fitted silhouette."
+    },
+    {
+        "target": "B0044WVG1C",
+        "captions": [
+            "is darker in color with short sleeves",
+            "is shiny and shorter with short sleeves"
+        ],
+        "candidate": "B0073VE2X0",
+        "description": "The sleeveless, knee-length dress features a V-neckline, a fitted bodice, and a subtle ruching detail."
+    },
+    {
+        "target": "B00FKEHK6S",
+        "captions": [
+            "is blue and has a higher neckline",
+            "is blue and less revealing"
+        ],
+        "candidate": "B00G0G376M",
+        "description": "The black long dress features a deep V-neckline, three-quarter sleeves, and a tie waist."
+    },
+    {
+        "target": "B00DJZLXFE",
+        "captions": [
+            "is a light blue fitted dress",
+            "is more professional"
+        ],
+        "candidate": "B00C931A8C",
+        "description": "Black floral print dress with a high neck, sleeveless, and a fitted silhouette, with a 3/4 length and a 2 inch hem."
+    },
+    {
+        "target": "B00CDAL83I",
+        "captions": [
+            "has longer sleeves",
+            "has longer sleeves"
+        ],
+        "candidate": "B00CTT50XC",
+        "description": "Black and white diamond print dress with a round neckline and short sleeves."
+    },
+    {
+        "target": "B005LJDHVY",
+        "captions": [
+            "is gray and black with thicker straps",
+            "is black abd gret"
+        ],
+        "candidate": "B005TNPR9M",
+        "description": "A red and black dress with a black and red hat, black shoes, and a black necklace."
+    },
+    {
+        "target": "B0055QA5JK",
+        "captions": [
+            "is an off shoulder and floral",
+            "is darker and one-armed"
+        ],
+        "candidate": "B00AO1VSVK",
+        "description": "The red lace dress has a round neckline, short sleeves, and a flared skirt."
+    },
+    {
+        "target": "B00A77JXQS",
+        "captions": [
+            "has longer sleeves",
+            "has sleeves"
+        ],
+        "candidate": "B004I6CSA2",
+        "description": "The black and red maxi dress features spaghetti straps, a V-neckline, and a tiered skirt with a ruffled hem."
+    },
+    {
+        "target": "B004A7XK9M",
+        "captions": [
+            "is a grey skirt with white cross designs on it",
+            "shows less skin and is more monochromatic"
+        ],
+        "candidate": "B007H9KZKM",
+        "description": "The red and white dress has a floral pattern, spaghetti straps, and a tie waist."
+    },
+    {
+        "target": "B003HE66SG",
+        "captions": [
+            "is less glamorous looking",
+            "has longer sleeves and is white colored"
+        ],
+        "candidate": "B000PIGECA",
+        "description": "A white halter-neck dress with a V-neckline and a flared skirt, displayed on a mannequin."
+    },
+    {
+        "target": "B00D8WMJME",
+        "captions": [
+            "has shorter sleeves with prints",
+            "has a printed image of a building"
+        ],
+        "candidate": "B00CTKMK4S",
+        "description": "The colorful dress features a black base, long sleeves, and a fitted silhouette, with a vibrant abstract pattern."
+    },
+    {
+        "target": "B00CDCD4GK",
+        "captions": [
+            "is darker green and longer sleeves",
+            "More pleated and green"
+        ],
+        "candidate": "B009AAR4GE",
+        "description": "A sleeveless mint green dress with a pleated skirt, a ribbon tied at the waist, and a round neckline."
+    },
+    {
+        "target": "B00AFXXH8O",
+        "captions": [
+            "is looser",
+            "flowing and cute"
+        ],
+        "candidate": "B00CKXPMQ2",
+        "description": "The strapless black and gold dress features a black and gold lace overlay, a black bow at the waist, and a black and gold belt."
+    },
+    {
+        "target": "B00CHMVBNO",
+        "captions": [
+            "is black and flows",
+            "is black and formal."
+        ],
+        "candidate": "B00CP1DJFA",
+        "description": "Red sleeveless dress with a black belt and a small black buckle."
+    },
+    {
+        "target": "B00B2JHHBS",
+        "captions": [
+            "is name Jones New York",
+            "na"
+        ],
+        "candidate": "B0091QVUHQ",
+        "description": "The black and white print dress features a collar, long sleeves, and a tie at the neck."
+    },
+    {
+        "target": "B00BJEP6OQ",
+        "captions": [
+            "is a striped jacket",
+            "is pants and a jacket"
+        ],
+        "candidate": "B00937VQIQ",
+        "description": "Tie-dye maxi dress with a blue and green tie-dye pattern, strapless, and a high-low hemline."
+    },
+    {
+        "target": "B00A76ZL3S",
+        "captions": [
+            "more revealing and v shaped at the cleavage.",
+            "the dress has many colors and more revealing"
+        ],
+        "candidate": "B00GX9SPR2",
+        "description": "The blue and black dress has a floral design, a square neckline, and long sleeves."
+    },
+    {
+        "target": "B009H29KIU",
+        "captions": [
+            "Is more evening and less whimsical",
+            " patterned and has sleeves"
+        ],
+        "candidate": "B003XIHXW4",
+        "description": "The blue and purple dress with a paisley design and 3/4 length sleeves."
+    },
+    {
+        "target": "B00GOITRZG",
+        "captions": [
+            "is short and classy",
+            "is hatched red and black and shorter with a jacket like top."
+        ],
+        "candidate": "B00CJTAM30",
+        "description": "The image shows a white dress with a floral print, featuring red, orange, and green flowers, and a V-neckline."
+    },
+    {
+        "target": "B008J7I8LY",
+        "captions": [
+            "Has more coverage and is more colorful",
+            "has a unique art pattern and is darker"
+        ],
+        "candidate": "B007IXDC7U",
+        "description": "A black maxi dress with colorful paisley patterns and a V-neckline."
+    },
+    {
+        "target": "B00378KQO2",
+        "captions": [
+            "has camo pattern",
+            "is blue with stripes"
+        ],
+        "candidate": "B0031M9YRO",
+        "description": "Blue sleeveless dress with black and white floral and geometric patterns, a v-neckline, and a black hem."
+    },
+    {
+        "target": "B00AKB3ZC4",
+        "captions": [
+            "is striped",
+            "has black and white stripes and fits similarly."
+        ],
+        "candidate": "B008LR38J4",
+        "description": "The black and white dress has a black belt and a black and white pattern."
+    },
+    {
+        "target": "B00763VYJU",
+        "captions": [
+            " white in color",
+            "it is white and red and less revealing"
+        ],
+        "candidate": "B0054O6H4A",
+        "description": "A strapless black and pink dress with a rhinestone-studded bodice and a tulle skirt."
+    },
+    {
+        "target": "B008LVG8GU",
+        "captions": [
+            "is green and smaller in size",
+            "A vibrant green is a more textured fabric"
+        ],
+        "candidate": "B0054R7P3Y",
+        "description": "Brown off-the-shoulder peasant dress with ruffled neckline and gathered bodice, with a flowing skirt and a tie at the neck."
+    },
+    {
+        "target": "B007NLX0ZQ",
+        "captions": [
+            "is strapless",
+            "is more red and less sleeved"
+        ],
+        "candidate": "B00EIQD91E",
+        "description": "Off-the-shoulder black maxi dress with blue and white floral embroidery and a blue and white patterned bottom."
+    },
+    {
+        "target": "B00CBUSHU2",
+        "captions": [
+            "is white with black accents",
+            "has long sleeves and is blue patterned"
+        ],
+        "candidate": "B0077LFHMG",
+        "description": "The pink dress features a ruffled neckline and a floral pattern."
+    },
+    {
+        "target": "B00CZ6G6GE",
+        "captions": [
+            "is purple and sleevless",
+            "a fuchsia ruffled plunge neckline with high low skirt"
+        ],
+        "candidate": "B00833D6NO",
+        "description": "Pink dress with lace trim, short sleeves, and a pleated skirt, worn by a mannequin."
+    },
+    {
+        "target": "B005W2G4HY",
+        "captions": [
+            "sleeveless and solid yellow",
+            "is yellow with a halter top"
+        ],
+        "candidate": "B00857SK2K",
+        "description": "One shoulder black one-shoulder dress with cut-out sleeves and a silver heel"
+    },
+    {
+        "target": "B007N6ZJNM",
+        "captions": [
+            "is less revealing",
+            "has more color and sleeves"
+        ],
+        "candidate": "B007N6ZN5G",
+        "description": "V-neck sleeveless black dress with a fitted silhouette, perfect for a night out."
+    },
+    {
+        "target": "B00845RYZW",
+        "captions": [
+            "is more revealing and stripped",
+            " and has shorter sleeves"
+        ],
+        "candidate": "B00D65PZPQ",
+        "description": "The red dress is a sleeveless, body-hugging, tight-fitting, and short-sleeved, red dress with a smooth and shiny finish."
+    },
+    {
+        "target": "B007Z37CJC",
+        "captions": [
+            "has longer sleeves",
+            "is grey and white with a tie waist"
+        ],
+        "candidate": "B00AHGAAUW",
+        "description": "Blue dress with buttons, long sleeves, and a pleated design."
+    },
+    {
+        "target": "B009WU0Y4G",
+        "captions": [
+            "has more lace and is more provocative",
+            "is black"
+        ],
+        "candidate": "B00BAY3QCE",
+        "description": "The lace dress is beige, long-sleeved, and has a lace-up front."
+    },
+    {
+        "target": "B00AW1R16I",
+        "captions": [
+            "is darker and has longer sleeves",
+            "is black and short"
+        ],
+        "candidate": "B003XZWE3A",
+        "description": "The pink dress has a round neckline and short sleeves, and it is made of a soft, flowing material."
+    },
+    {
+        "target": "B008FEOHC0",
+        "captions": [
+            "Is solid and darker with long sleeves.",
+            "is darker and has longer sleeves"
+        ],
+        "candidate": "B008R527JW",
+        "description": "The black and white wrap dress with a geometric pattern and three-quarter sleeves."
+    },
+    {
+        "target": "B007WAD292",
+        "captions": [
+            "is brown shaded",
+            "is long sleeved and a lined"
+        ],
+        "candidate": "B008OVOV8Y",
+        "description": "A cream lace dress with a brown lacing detail and a short, fitted bodice."
+    },
+    {
+        "target": "B0050JBWCQ",
+        "captions": [
+            "has longer sleeves in a darker color",
+            "Is a lighter coloring with flowers and no sleeves."
+        ],
+        "candidate": "B00DFW140K",
+        "description": "The red lace dress is sleeveless, has a V-neckline, and a flared skirt."
+    },
+    {
+        "target": "B005X0AUFM",
+        "captions": [
+            "is darker",
+            "is black"
+        ],
+        "candidate": "B009UZSZBW",
+        "description": "A pink halter-neck dress with a ruffled design and a black bracelet on the wrist."
+    },
+    {
+        "target": "B005XEN2PS",
+        "captions": [
+            "has a one shoulder sleeve",
+            "Is lighter in color and has a different neckline"
+        ],
+        "candidate": "B002CJFNEK",
+        "description": "A blue halter-neck dress with a sweetheart neckline, ruching, and a bracelet on the wrist."
+    },
+    {
+        "target": "B00DR7EKPY",
+        "captions": [
+            "is identical",
+            "is a bit more flowing"
+        ],
+        "candidate": "B00DR7EKRW",
+        "description": "A green dress with a tie waist, short sleeves, and a pleated skirt, with a woman wearing it and a necklace."
+    },
+    {
+        "target": "B007R9TF1M",
+        "captions": [
+            "Is longer in solid dark color",
+            "is black with longer sleeves"
+        ],
+        "candidate": "B003U6XVXE",
+        "description": "The black and gray striped sleeveless dress with a v-neckline and a fitted silhouette is a stylish piece of clothing."
+    },
+    {
+        "target": "B004P2KWHA",
+        "captions": [
+            " and red pattern",
+            "is brown with short sleeves"
+        ],
+        "candidate": "B0072IKV9S",
+        "description": "The brown sleeveless top has a round neckline and is paired with a black pencil skirt."
+    },
+    {
+        "target": "B008CO7ODM",
+        "captions": [
+            "is red with longer sleeves",
+            "is red with a bow tied in the front"
+        ],
+        "candidate": "B00C6XKSYW",
+        "description": "The black and white dress has a black and white checkered pattern, a black and white striped pattern, and a black and white striped pattern."
+    },
+    {
+        "target": "B0033PRQ7E",
+        "captions": [
+            "Has a flared skirt and solid straps.",
+            "has more colors and longer"
+        ],
+        "candidate": "B0035WTC5E",
+        "description": "A sleeveless pink and white floral dress with a scoop neck and a fitted silhouette."
+    },
+    {
+        "target": "B004JXVVCK",
+        "captions": [
+            "is flowery and brightly colored",
+            "is longer with purple and white pattern"
+        ],
+        "candidate": "B004JU2BAY",
+        "description": "A strapless black and white polka dot dress with a red belt and a white belt."
+    },
+    {
+        "target": "B00BBKYSJM",
+        "captions": [
+            "is lighter",
+            "is bright yellow"
+        ],
+        "candidate": "B00307RLL6",
+        "description": "Red sleeveless dress with a V-neckline and lace trim, with a relaxed fit and a pleated skirt."
+    },
+    {
+        "target": "B00BU4TLH8",
+        "captions": [
+            "has a tube top and has more ruffles",
+            "Is shorter and sexier"
+        ],
+        "candidate": "B008ZSN7M2",
+        "description": "Yellow sweater with a high neck and short sleeves, with a textured pattern and a small pocket on the front."
+    },
+    {
+        "target": "B008LRMY26",
+        "captions": [
+            "is similar but more coloured with more blues and black",
+            "is more blue"
+        ],
+        "candidate": "B00DSI8OQS",
+        "description": "The colorful dress features a paisley design with a mix of red, orange, blue, and green colors."
+    },
+    {
+        "target": "B006G2AJFM",
+        "captions": [
+            "dark long sleeve dress with cow neck collar",
+            "Is more casual  with  longer sleeves"
+        ],
+        "candidate": "B0083JA40Q",
+        "description": "The orange dress has a v-neckline, short sleeves, and a fitted design."
+    },
+    {
+        "target": "B00DYB1Q28",
+        "captions": [
+            "is less revealing with a floral pattern",
+            "has longer sleeves and pattern"
+        ],
+        "candidate": "B000Y3M52Y",
+        "description": "The purple halter neck dress with a pleated skirt and a halter neck design."
+    },
+    {
+        "target": "B00EEJU2TC",
+        "captions": [
+            "is white with closed neck",
+            "is almost all white with little black lace"
+        ],
+        "candidate": "B0095FP38K",
+        "description": "The black and turquoise lace dress with a black belt and black high heels."
+    },
+    {
+        "target": "B005M0RI6C",
+        "captions": [
+            "Is tighter with a cold shoulder.",
+            " excluding the shoulders."
+        ],
+        "candidate": "B008EMCCFC",
+        "description": "Black sleeveless dress with a flared skirt, black and gold high heels, and a black and gold belt."
+    },
+    {
+        "target": "B007UM4YM6",
+        "captions": [
+            "is longer with a v neck",
+            "has two straps and is shorter"
+        ],
+        "candidate": "B007UM53BM",
+        "description": "One-shoulder blue maxi dress with a floral print, brown heeled boots, and a slim waist."
+    },
+    {
+        "target": "B0089FSQKE",
+        "captions": [
+            "is shorter and lighter",
+            "The desired product is shorter in length than the provided product."
+        ],
+        "candidate": "B004ZIGJDU",
+        "description": "A halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter halter hal"
+    },
+    {
+        "target": "B006X53KX0",
+        "captions": [
+            "is more modest with a turtle neck",
+            "has long sleeves and pants"
+        ],
+        "candidate": "B000E6IEHQ",
+        "description": "Black polka dot dress with a high neck and a flared skirt, displayed on a mannequin."
+    },
+    {
+        "target": "B004HEXH0U",
+        "captions": [
+            "is shorter and lighter",
+            "is shorter"
+        ],
+        "candidate": "B005UXSVVM",
+        "description": "The black maxi dress features a square neckline, thin straps, and a draped design."
+    },
+    {
+        "target": "B008LXSKBO",
+        "captions": [
+            "has transparent net sleeves",
+            "Has longer sleeves and sexier"
+        ],
+        "candidate": "B009ANVFZW",
+        "description": "The black and white lace dress features a sleeveless design, a fitted silhouette, and a high neckline."
+    },
+    {
+        "target": "B008BA7THS",
+        "captions": [
+            "is shinier  with spaghetti straps",
+            "is red with short straps"
+        ],
+        "candidate": "B00C4OMRUQ",
+        "description": "Black lace dress with a V-neckline and 3/4 sleeves, featuring a scalloped hem and a fitted silhouette."
+    },
+    {
+        "target": "B005X4PFE4",
+        "captions": [
+            "the blue color and less shiny and bold",
+            "is lighter and shinier"
+        ],
+        "candidate": "B007V0B37G",
+        "description": "The sleeveless purple and black dress features a zigzag pattern and a V-neckline."
+    },
+    {
+        "target": "B0073NCTZ6",
+        "captions": [
+            "the black dress is more fashionable and mature",
+            "black and shorter"
+        ],
+        "candidate": "B007FP788K",
+        "description": "The navy blue and white floral dress features a v-neckline, cap sleeves, and a flared skirt."
+    },
+    {
+        "target": "B00CUALGAQ",
+        "captions": [
+            "has longer sleeves and has a pattern",
+            "is more patterned and flowy"
+        ],
+        "candidate": "B0084YEHGC",
+        "description": "Black sleeveless dress with a high neckline and a peplum detail."
+    },
+    {
+        "target": "B0076FD3EC",
+        "captions": [
+            "Is shorter with lighter fabric.",
+            "the dress is silver and more revealing"
+        ],
+        "candidate": "B0035LDH7O",
+        "description": "Black sleeveless dress with a zipper in the front, gold high heels, and a long silver necklace."
+    },
+    {
+        "target": "B00DCCA21A",
+        "captions": [
+            "is white with a blue print on bottom",
+            "has no sleeves and is white colored"
+        ],
+        "candidate": "B001DOKB60",
+        "description": "Black sleeveless dress with white floral embroidery and a gathered waistline on a mannequin."
+    },
+    {
+        "target": "B008FXGEQS",
+        "captions": [
+            "Is all red with a fitted jacket",
+            "is in solid red with a tied jacket top."
+        ],
+        "candidate": "B00A88GD64",
+        "description": "The orange jacket with a ruffled collar and three-quarter length sleeves is a stylish addition to the outfit."
+    },
+    {
+        "target": "B008BHHY0I",
+        "captions": [
+            "is darker and has longer sleeves",
+            "is black and short"
+        ],
+        "candidate": "B00CMTD5GS",
+        "description": "White sleeveless dress with a round neckline and a flowy skirt."
+    },
+    {
+        "target": "B008U8XM4K",
+        "captions": [
+            "is solid black",
+            "is solid black in color"
+        ],
+        "candidate": "B00C70IBXO",
+        "description": "Blue dress with a black belt, short sleeves, and a flared skirt"
+    },
+    {
+        "target": "B006V3F852",
+        "captions": [
+            "is v shaped neck and orange with no sleeves",
+            "A longer dress with white belt"
+        ],
+        "candidate": "B0046QFKWW",
+        "description": "The black dress has a long, flowing design, with a round neckline and three-quarter sleeves."
+    },
+    {
+        "target": "B0057TE532",
+        "captions": [
+            "Sexier and not long-sleeve",
+            "More monochromatic and longer"
+        ],
+        "candidate": "B0058TYWEI",
+        "description": "Blue wrap dress with 3/4 sleeves, V-neck, and a drawstring waist."
+    },
+    {
+        "target": "B009B9U78Q",
+        "captions": [
+            "has a very cute image design",
+            "has a panda design"
+        ],
+        "candidate": "B0082GUBW6",
+        "description": "Black and white lace dress with a floral pattern, ruffled hem, and a flower on the shoulder."
+    },
+    {
+        "target": "B00BWRLUZY",
+        "captions": [
+            "is longer and more formal",
+            "is longer and black with white trim at neck"
+        ],
+        "candidate": "B00E1CC7G8",
+        "description": "Yellow dress with pleated skirt, sleeveless, belt, and a round neckline."
+    },
+    {
+        "target": "B00FAPOFYW",
+        "captions": [
+            "is more fitted and has a colorful pattern",
+            "is much longer and darker in color"
+        ],
+        "candidate": "B00CI42NVA",
+        "description": "The sleeveless dress features a black collar, a brown belt, and a pattern of birds on a beige background."
+    },
+    {
+        "target": "B00BNRLBA2",
+        "captions": [
+            "Darker and see through",
+            "is darker and has shorter sleeves"
+        ],
+        "candidate": "B00BLHGQRC",
+        "description": "The black and white dress has a leopard print design, a yellow trim, and three-quarter length sleeves."
+    },
+    {
+        "target": "B00DOS8566",
+        "captions": [
+            "is shorter and tighter",
+            "is lighter and has shorter sleeves"
+        ],
+        "candidate": "B004UOVT0W",
+        "description": "Black floral dress with a black background, red and pink flowers, and a black ruffle at the bottom."
+    },
+    {
+        "target": "B008VEPH1Y",
+        "captions": [
+            "has longer sleeves and polka dots",
+            "has sleeves and is a white and black color."
+        ],
+        "candidate": "B008FVESQS",
+        "description": "The red sleeveless dress with a floral embroidery design and a pleated skirt is a stylish and elegant choice for a special occasion."
+    },
+    {
+        "target": "B00D8RZKO8",
+        "captions": [
+            "is a green color",
+            "is kiwi green and shimmery"
+        ],
+        "candidate": "B00D8RZKTS",
+        "description": "The black skirt is made of sheer fabric, has a high waistline, and is loose-fitting."
+    },
+    {
+        "target": "B00B9B8CJU",
+        "captions": [
+            "is long and purple",
+            "is longer and more elegant"
+        ],
+        "candidate": "B007G10BPA",
+        "description": "A red dress with a pleated skirt, short sleeves, and a round neckline."
+    },
+    {
+        "target": "B00D61YDJO",
+        "captions": [
+            "is more gold and revealing",
+            "is gold with straps"
+        ],
+        "candidate": "B00APE0XGM",
+        "description": "The black and white dress features a sweetheart neckline, short sleeves, and a fitted design with a brown stripe across the waist."
+    },
+    {
+        "target": "B007V7PMWG",
+        "captions": [
+            "sandal with flat heels",
+            "is a sandal and lighter in color"
+        ],
+        "candidate": "B0065RQ4LG",
+        "description": "The black suede boots with fur lining and silver buckles are a stylish winter accessory."
+    },
+    {
+        "target": "B005C8X764",
+        "captions": [
+            "is longer",
+            "is longer and black and white"
+        ],
+        "candidate": "B009JY640I",
+        "description": "The pink dress has a black waistband and black stripes on the skirt."
+    },
+    {
+        "target": "B00C24N8ZQ",
+        "captions": [
+            "is long and black",
+            "is black and longer"
+        ],
+        "candidate": "B00B1JXZ7O",
+        "description": "Black and white striped sleeveless dress with a fitted bodice and a flared skirt."
+    },
+    {
+        "target": "B0093ANHDU",
+        "captions": [
+            "Is black with feathers.",
+            "strapless"
+        ],
+        "candidate": "B005ZNFK5C",
+        "description": "The brown maxi dress features a V-neckline, a tie at the waist, and a tiered skirt with a ruffled hem."
+    },
+    {
+        "target": "B00AKO82FQ",
+        "captions": [
+            "is solid black",
+            "is a skirt"
+        ],
+        "candidate": "B008VUZF92",
+        "description": "Polka dot dress with long sleeves, black and white colors, and a v-neckline."
+    },
+    {
+        "target": "B0053X5B94",
+        "captions": [
+            "fitted and red print",
+            "has a belt and is shorter"
+        ],
+        "candidate": "B008CE9DWW",
+        "description": "The black turtleneck dress features a high neck, long sleeves, and a knee-length hem."
+    },
+    {
+        "target": "B00BMOURII",
+        "captions": [
+            "is blue and long with sleeves",
+            "is elegant and long sleeved and longer in length"
+        ],
+        "candidate": "B00BP3I0E4",
+        "description": "A strapless, pink, ruffled mini dress with a silver and rhinestone embellished waistline."
+    },
+    {
+        "target": "B00B30IRCY",
+        "captions": [
+            "less bold and too long",
+            " one strapped"
+        ],
+        "candidate": "B00D178UAG",
+        "description": "The black and beige dress features a black lace neckline, a fitted design, and a short length."
+    },
+    {
+        "target": "B005OHAQNU",
+        "captions": [
+            "Is a short black stripe cold shoulder",
+            "has one shoulder design and is shorter"
+        ],
+        "candidate": "B003IHVHOK",
+        "description": "The red and blue patterned dress with a black belt and a black beaded trim."
+    },
+    {
+        "target": "B00D4FTIUQ",
+        "captions": [
+            "is shorter with royal blue tone",
+            "is more flowing and blue"
+        ],
+        "candidate": "B00EIK88G6",
+        "description": "The black and beige striped sweater is a stylish and trendy piece of clothing that can be worn for both casual and formal occasions."
+    },
+    {
+        "target": "B00GNLSVVK",
+        "captions": [
+            "is black with a bohemian pattern. It has half sleeves",
+            " darker and has longer sleeves"
+        ],
+        "candidate": "B00FCEF00O",
+        "description": "The blue and green long dress with a blue and red bottom, featuring a blue and red belt, a blue and red pattern, and a blue and red tie."
+    },
+    {
+        "target": "B005SN7E8A",
+        "captions": [
+            "is beige very loos and one free shoulder",
+            "is darker and warmer"
+        ],
+        "candidate": "B0007WFGWS",
+        "description": "The pink dress has a round neckline, short sleeves, and two pockets on the front."
+    },
+    {
+        "target": "B00E0NUBS4",
+        "captions": [
+            "is darker with long sleeves",
+            "is black and long sleeved"
+        ],
+        "candidate": "B00925CXK4",
+        "description": "Green ruched mini dress with halter neck, pink high heels with bows, and silver bracelets."
+    },
+    {
+        "target": "B005WNIKJI",
+        "captions": [
+            "is black short dress",
+            "is much shorter"
+        ],
+        "candidate": "B007WA48E0",
+        "description": "Green maxi dress with a flowy top, a zipper detail, and a high slit."
+    },
+    {
+        "target": "B008O4ZWWA",
+        "captions": [
+            "is a yellow shirt style dress with a brown belt",
+            "belted"
+        ],
+        "candidate": "B00CIBOMZ8",
+        "description": "The red dress features a button-up front, three-quarter length sleeves, and a pocket on the chest."
+    },
+    {
+        "target": "B003IF6IDW",
+        "captions": [
+            "is shorter and light pink",
+            "It is more pink and sorter"
+        ],
+        "candidate": "B006KD9N6S",
+        "description": "The blue metallic dress has a deep V-neckline, a wrap-around design, and a high slit."
+    },
+    {
+        "target": "B00C0RKZQK",
+        "captions": [
+            "has a brighter shade of color",
+            "is lighter"
+        ],
+        "candidate": "B00FIZYWDS",
+        "description": "A sleeveless mint green dress with a pleated skirt, a ribbon tied at the waist, and a round neckline."
+    },
+    {
+        "target": "B00CI89BUW",
+        "captions": [
+            "a sleeveless v neck solid black",
+            "has thicker straps and is black"
+        ],
+        "candidate": "B00DDVV6HY",
+        "description": "A brown spaghetti strap tank top with a fitted silhouette and a short hemline."
+    },
+    {
+        "target": "B003XRN2TI",
+        "captions": [
+            "has a more revealing neckline",
+            "is lighter blue and more revealing"
+        ],
+        "candidate": "B007FG0WI2",
+        "description": "Blue strapless dress with ruched bodice, silver bracelets, and large silver earrings."
+    },
+    {
+        "target": "B000LLOF6I",
+        "captions": [
+            "is red with rhinestones",
+            "is read and longer"
+        ],
+        "candidate": "B008VEPHW8",
+        "description": "Blue and black sleeveless dress with a black lace pattern and a blue background."
+    },
+    {
+        "target": "B00CI34V1Q",
+        "captions": [
+            "is light colored and tiny floral prints",
+            "has lighter colored Floral."
+        ],
+        "candidate": "B00CIQNITY",
+        "description": "Black and purple floral maxi dress with a V-neck, pleated bodice, and a high-low hemline."
+    },
+    {
+        "target": "B0094GCIG0",
+        "captions": [
+            "is short mini and sexy lady black",
+            "all black and tighter skirt"
+        ],
+        "candidate": "B008BHS3UI",
+        "description": "A black skirt with a white pattern, featuring a waistband and a black top with a gray shirt."
+    },
+    {
+        "target": "B00F4N07O2",
+        "captions": [
+            "has long transparent sleeves",
+            "is more lacey and tighter"
+        ],
+        "candidate": "B0072IKU30",
+        "description": "Black polka dot dress with short sleeves, round neckline, and a tie waist."
+    },
+    {
+        "target": "B00E0CYF9G",
+        "captions": [
+            "has black and white stripes and is longer",
+            "striped pattern and longer"
+        ],
+        "candidate": "B00FJDYWAC",
+        "description": "Black long sleeve dress with a round neckline and sparkly embellishments."
+    },
+    {
+        "target": "B008P45VFC",
+        "captions": [
+            "is longer and coral",
+            "is darker and longer"
+        ],
+        "candidate": "B007WATBHO",
+        "description": "A pink and black sleeveless dress with a sheer top and a black bow detail."
+    },
+    {
+        "target": "B00ANK78WK",
+        "captions": [
+            "is more wordy and less of a dress",
+            "is not a dress"
+        ],
+        "candidate": "B00AO1VSVK",
+        "description": "The red lace dress has a round neckline, short sleeves, and a flared skirt."
+    },
+    {
+        "target": "B008OPLI4U",
+        "captions": [
+            "is less tight with sort sleeves",
+            "has longer sleeves and a higher neckline."
+        ],
+        "candidate": "B007U1GIAS",
+        "description": "Black sleeveless top with a round neckline, black mini skirt, and black high heels."
+    },
+    {
+        "target": "B006ON4KIK",
+        "captions": [
+            "is black and longer sleeves",
+            "has a Chinese art design"
+        ],
+        "candidate": "B0028RYM7A",
+        "description": "A white dress with red and pink flowers, a black belt, and a square neckline."
+    },
+    {
+        "target": "B004MGVBPG",
+        "captions": [
+            "is black and is longer",
+            "Is blalck and longer"
+        ],
+        "candidate": "B009BJ5V1Y",
+        "description": "Red one-shoulder mini dress with crystal belt and silver high heels"
+    },
+    {
+        "target": "B00B7DZNG0",
+        "captions": [
+            "is shorter and have longer sleeves",
+            " brighter and has shorter sleeves"
+        ],
+        "candidate": "B0088B32OO",
+        "description": "The gold dress features a V-neckline, a wrap design, and a belt at the waist."
+    },
+    {
+        "target": "B00EZJ6ZJW",
+        "captions": [
+            "has beige color at bottom",
+            " and has sleeves"
+        ],
+        "candidate": "B008ID8R60",
+        "description": "Black and neon yellow long sleeve dress with a neon yellow X on the front."
+    },
+    {
+        "target": "B0064VI2WW",
+        "captions": [
+            "has a white lace top and is less fitted",
+            "has white lining the top."
+        ],
+        "candidate": "B00979QTHS",
+        "description": "The black off-the-shoulder dress with a ribbed texture and a fitted design."
+    },
+    {
+        "target": "B00BCQR6DA",
+        "captions": [
+            "chevron print spaghetti strap long dress",
+            "has spagetti straps and is much longer"
+        ],
+        "candidate": "B0032XUKTI",
+        "description": "A colorful strapless dress with a zigzag pattern and a black and white stripe at the bottom."
+    },
+    {
+        "target": "B0060FHTM6",
+        "captions": [
+            "is white with black trim",
+            "sexy and white"
+        ],
+        "candidate": "B0062FMQ0O",
+        "description": "The red and black lace dress features a square neckline, thin straps, and a pleated waist with a black belt."
+    },
+    {
+        "target": "B0081XK6GG",
+        "captions": [
+            "has a oval neck with solid red toned",
+            "A solid red dress with higher neckline"
+        ],
+        "candidate": "B007ZPXM6W",
+        "description": "The white dress features a V-neckline, a wrap-style bodice, and a tie at the waist."
+    },
+    {
+        "target": "B003QHXPSI",
+        "captions": [
+            "has a belted waist and an asymmetric neckline",
+            "shorter and darker colored."
+        ],
+        "candidate": "B0035LDH7O",
+        "description": "Black sleeveless dress with a zipper in the front, gold high heels, and a long silver necklace."
+    },
+    {
+        "target": "B00BKU92T4",
+        "captions": [
+            "this is not a piece of clothing",
+            "product is text"
+        ],
+        "candidate": "B006LFOX4M",
+        "description": "The red lace dress features a belt at the waist, a collar, and three-quarter sleeves."
+    },
+    {
+        "target": "B003FST6AO",
+        "captions": [
+            "is sleeveless and wine colored",
+            "is black with thin straps"
+        ],
+        "candidate": "B007TZZKRC",
+        "description": "The image shows a beige long-sleeved dress with a square neckline and lace details on the chest."
+    },
+    {
+        "target": "B00D535NN8",
+        "captions": [
+            "is longer with more black shade",
+            "is darker with no sleeves"
+        ],
+        "candidate": "B00BU9NDY0",
+        "description": "The white long-sleeved dress with a floral embroidery design and a round neckline."
+    },
+    {
+        "target": "B00BGH1G68",
+        "captions": [
+            "is more transparent",
+            "is scooped neckline and straighter skirt."
+        ],
+        "candidate": "B00BNN3BA4",
+        "description": "Black dress with white floral print, sleeveless, V-neck, pleated skirt, and a ruffled neckline."
+    },
+    {
+        "target": "B00ARFW3SU",
+        "captions": [
+            "is more wild and loud",
+            "Is a shorter shift dress with a pattern."
+        ],
+        "candidate": "B0087YZLIW",
+        "description": "The teal sleeveless dress has a round neckline and a flared skirt with pleats."
+    },
+    {
+        "target": "B00DI7BZI8",
+        "captions": [
+            "is grey colored and has longer sleeves",
+            "is lighter colored and has long sleeves"
+        ],
+        "candidate": "B007SV9DBQ",
+        "description": "Black wrap dress with a belt and a gold buckle"
+    },
+    {
+        "target": "B009Y6PZ9M",
+        "captions": [
+            "sleevleess and printed",
+            "is leather"
+        ],
+        "candidate": "B000YX9H5M",
+        "description": "Black long sleeve dress with sequin skirt"
+    },
+    {
+        "target": "B00686OEZW",
+        "captions": [
+            "is darker color and has shorter hem",
+            "has a black and with print"
+        ],
+        "candidate": "B00FPHQVCY",
+        "description": "Green lace dress with a high neckline and a fitted silhouette, featuring a unique pattern of small flowers."
+    },
+    {
+        "target": "B006J9GJNS",
+        "captions": [
+            "is longer with multicolored stripes",
+            "is looser"
+        ],
+        "candidate": "B0074HOB0C",
+        "description": "The black ruched mini dress with a ruched side and a ruched tie detail."
+    },
+    {
+        "target": "B007C7J5KK",
+        "captions": [
+            "is white with a black belt",
+            "is lighter in color"
+        ],
+        "candidate": "B009MB1LMO",
+        "description": "A strapless red and blue striped dress with a fitted bodice and a flared skirt."
+    },
+    {
+        "target": "B006DD4FOK",
+        "captions": [
+            "is brighter and is strapless with a gradient lighter at the top",
+            "Is shorter and less flowing"
+        ],
+        "candidate": "B00BGM35XK",
+        "description": "A halter-style maxi dress with a gradient purple, pink, and blue color scheme, featuring a black belt and a pair of dangling earrings."
+    },
+    {
+        "target": "B00A3UTF58",
+        "captions": [
+            "is black with white polka dots",
+            "spotted and no arms"
+        ],
+        "candidate": "B00D7OS16G",
+        "description": "The black and white polka dot dress with a white polka dot top, black skirt, and black belt."
+    },
+    {
+        "target": "B009R3CYLO",
+        "captions": [
+            "is orange and longer",
+            "is orange and longer"
+        ],
+        "candidate": "B004DUM9QG",
+        "description": "A strapless black dress with ruffles and a tie at the waist."
+    },
+    {
+        "target": "B009E2DVOC",
+        "captions": [
+            "has more see through",
+            "is shorter in length"
+        ],
+        "candidate": "B007BZF7ZK",
+        "description": "The black dress features a high-low hemline, cold-shoulder sleeves, and a beaded necklace."
+    },
+    {
+        "target": "B00BV1WHHQ",
+        "captions": [
+            "is red and does not have a slit",
+            "is strapless"
+        ],
+        "candidate": "B00BV2VNJ8",
+        "description": "The green strapless gown features a beaded bodice, a high slit, and a flowing skirt."
+    },
+    {
+        "target": "B007NKX1DI",
+        "captions": [
+            "the red color looks too bold",
+            "Is more revealing and less classic"
+        ],
+        "candidate": "B00A1L7A56",
+        "description": "The red dress with black polka dots and a black waistband is a halter dress with a ruffled skirt."
+    },
+    {
+        "target": "B00AA7DDYS",
+        "captions": [
+            "Is more casual with a scoop neck.",
+            "shirt and jeans"
+        ],
+        "candidate": "B005ERT4OW",
+        "description": "The black dress has a long sleeve, a cowl neck, and a fitted design."
+    },
+    {
+        "target": "B00BXP18MK",
+        "captions": [
+            "short blue dress",
+            "is shorter more see through and revealing"
+        ],
+        "candidate": "B009VRTY8C",
+        "description": "A strapless, pink, black, and white, long, maxi dress with a zigzag pattern."
+    },
+    {
+        "target": "B008FVQTK6",
+        "captions": [
+            "is sexier",
+            "thinner straps and shorter"
+        ],
+        "candidate": "B006P55ZKE",
+        "description": "Black v-neck dress with 3/4 length sleeves, knee-length skirt, and a subtle V-neckline."
+    },
+    {
+        "target": "B00B1JO4KG",
+        "captions": [
+            "has no sleeves and straps",
+            "is black with gold striping"
+        ],
+        "candidate": "B009CH5AKC",
+        "description": "The gold sequined dress has a spaghetti strap and a low back."
+    },
+    {
+        "target": "B00B89JB0M",
+        "captions": [
+            "is longer and black toned",
+            "is longer and v necked"
+        ],
+        "candidate": "B00B89OLCK",
+        "description": "A gray dress with a ruched bodice and a short hemline, paired with black high heels."
+    },
+    {
+        "target": "B008CFE9ES",
+        "captions": [
+            "sleeved stripped black and orange dress",
+            "has buttons and a striped"
+        ],
+        "candidate": "B008Z91E3U",
+        "description": "Blue lace dress with scalloped hem, sleeveless, and a round neckline."
+    },
+    {
+        "target": "B007V0B22M",
+        "captions": [
+            "is black and is more simple",
+            "is black and less vintage"
+        ],
+        "candidate": "B007RUZ7I6",
+        "description": "The V-neck dress features a satin and silk blend, a black waistband, and a pleated design."
+    },
+    {
+        "target": "B00EIQKV2Y",
+        "captions": [
+            "Is darker with longer sleeves",
+            "is grey"
+        ],
+        "candidate": "B008ZSNTES",
+        "description": "The white sweater dress features a cowl neck, short sleeves, and a belt at the waist."
+    },
+    {
+        "target": "B00B1P92MK",
+        "captions": [
+            "Is darker",
+            "is more animal-like and darker"
+        ],
+        "candidate": "B00G7H39YY",
+        "description": "Dress with a black and white snake print, fitted, long sleeves, and a round neckline."
+    },
+    {
+        "target": "B00CHO0TQC",
+        "captions": [
+            "is more orange and flowing",
+            "is red and more flowy"
+        ],
+        "candidate": "B0035WTCA4",
+        "description": "The orange dress has a square neckline, a fitted bodice, and a pleated skirt."
+    },
+    {
+        "target": "B0088IMA2W",
+        "captions": [
+            "is green with a large flower",
+            "is in green print with flowers."
+        ],
+        "candidate": "B006OI1PSI",
+        "description": "A black and white one-shoulder dress with a floral print and a ruched bodice."
+    },
+    {
+        "target": "B00BYN092Q",
+        "captions": [
+            "a pink dress with a tied waist and collar",
+            "is tighter and has a bow"
+        ],
+        "candidate": "B004USQGFQ",
+        "description": "Black dress with 3/4 sleeves, wrap design, and a tie at the waist."
+    },
+    {
+        "target": "B008P46ACU",
+        "captions": [
+            "is longer with green and yellow stripes",
+            "has longer sleevers and is lighted colored"
+        ],
+        "candidate": "B007WA2B7Q",
+        "description": "A purple and black peplum dress with a round neckline and short sleeves."
+    },
+    {
+        "target": "B008596Q1K",
+        "captions": [
+            "is bright blue with a pink hem and longer",
+            "is looser"
+        ],
+        "candidate": "B00857SVFQ",
+        "description": "A leopard print dress with a loose fit, a ruffled top, and a mini skirt."
+    },
+    {
+        "target": "B00BLUQFM0",
+        "captions": [
+            "is white in color and has straps",
+            "is white and flowing"
+        ],
+        "candidate": "B002AVZ57K",
+        "description": "The pink strapless gown features a beaded bodice, a crystal brooch, and a flowing tulle skirt."
+    },
+    {
+        "target": "B00FQQ0QXO",
+        "captions": [
+            "is solid at the top and has a patterened bottom",
+            "has longer sleeves"
+        ],
+        "candidate": "B00EVPC3D2",
+        "description": "The blue dress is a one-shoulder, ruched, flowy, and elegant gown with a silver belt."
+    },
+    {
+        "target": "B00B32ZGJE",
+        "captions": [
+            "is green",
+            "is strapless and green"
+        ],
+        "candidate": "B0077V74J0",
+        "description": "The image shows a strapless, pink, sequined, and ruffled evening gown with a high-low hemline and a thigh-high slit."
+    },
+    {
+        "target": "B00B513P1E",
+        "captions": [
+            "is flirtier and has a different pattern",
+            "has reds in the floral design."
+        ],
+        "candidate": "B00B513P1O",
+        "description": "Blue and white floral print dress with a plunging neckline, sleeveless design, and a fitted silhouette."
+    },
+    {
+        "target": "B009EWH5DA",
+        "captions": [
+            "sleeved pink short dress",
+            "Is  pink and less plain"
+        ],
+        "candidate": "B008M0QZMW",
+        "description": "Black 3/4 sleeve dress with a round neck and a fitted silhouette"
+    },
+    {
+        "target": "B005P78KEG",
+        "captions": [
+            "has stripes and is darker",
+            "is darker and has stripes"
+        ],
+        "candidate": "B005IKQKAG",
+        "description": "Blue sleeveless dress with a round neck and a fitted silhouette."
+    },
+    {
+        "target": "B0007WFGWS",
+        "captions": [
+            "is pink and has pockets",
+            "is pink and has pockets"
+        ],
+        "candidate": "B00480AS5K",
+        "description": "A green and white striped dress with red and yellow embroidered flowers and a green band at the bottom."
+    },
+    {
+        "target": "B0094KPB6K",
+        "captions": [
+            "is similar but plain green.",
+            "green with flowing bottom"
+        ],
+        "candidate": "B00B80TRKA",
+        "description": "A sleeveless, striped dress with pastel colors and a V-neckline."
+    },
+    {
+        "target": "B00D9JYTX8",
+        "captions": [
+            "is similar but has a police box picture on front",
+            "is blue and a tardis"
+        ],
+        "candidate": "B00E94P2M4",
+        "description": "The blue and black polka dot dress is a fun and quirky piece of clothing that is perfect for a fun and quirky outfit."
+    },
+    {
+        "target": "B008IGR9VG",
+        "captions": [
+            "has short sleeves",
+            "pink and white stripes and skinny"
+        ],
+        "candidate": "B00AFPZBUY",
+        "description": "Striped sleeveless top with a yellow skirt and polka dot ribbon."
+    },
+    {
+        "target": "B004HSN6O8",
+        "captions": [
+            "Is more blue and less pink",
+            "the dress is blue with designs and longer"
+        ],
+        "candidate": "B005DSAIHE",
+        "description": "A strapless, halter-style dress with pink and black floral patterns, black and white stripes, and a high-low hemline."
+    },
+    {
+        "target": "B00CJQI5KA",
+        "captions": [
+            "longer sleeves and black",
+            "darker with sleeves"
+        ],
+        "candidate": "B00EA3QWBY",
+        "description": "The red dress has a shiny texture and a zipper down the front."
+    },
+    {
+        "target": "B00CISJPLC",
+        "captions": [
+            "has a tighter skirt and wider sleeves",
+            "is fitted and yellow belt"
+        ],
+        "candidate": "B00684UXP4",
+        "description": "Blue polka dot halter dress with black waistband and black ruffled hem"
+    },
+    {
+        "target": "B008PC5C5I",
+        "captions": [
+            "is high low dress and more purple in colour",
+            "is sleeveless"
+        ],
+        "candidate": "B004HEXH0U",
+        "description": "The black and red dress features a V-neckline, short sleeves, and a tie at the waist."
+    },
+    {
+        "target": "B00BNV78ZK",
+        "captions": [
+            "is less reavealing with mesh",
+            "is pink and black with a see through netting neckline."
+        ],
+        "candidate": "B0066CUS6M",
+        "description": "A strapless, pink and black geometric print dress with a fitted silhouette and a high neckline."
+    },
+    {
+        "target": "B005VTN6GU",
+        "captions": [
+            "shorter length and scoop neck",
+            "is more short and sexier"
+        ],
+        "candidate": "B005UXSVVM",
+        "description": "The black maxi dress features a square neckline, thin straps, and a draped design."
+    },
+    {
+        "target": "B007ECBNEY",
+        "captions": [
+            "is sleeves",
+            "is black with spaghetti straps."
+        ],
+        "candidate": "B00AM2HT78",
+        "description": "A strapless white dress with a ruffled hem and a sweetheart neckline."
+    },
+    {
+        "target": "B0083EC3VY",
+        "captions": [
+            "has no straps with tie dye print",
+            "is red and sleeveless"
+        ],
+        "candidate": "B0039ITI44",
+        "description": "A sleeveless white and pink striped tank top with a hood, black drawstrings, and a pocket on the front."
+    },
+    {
+        "target": "B00AIBYOW6",
+        "captions": [
+            "is looser and a tube top",
+            "is brown"
+        ],
+        "candidate": "B008VILBSI",
+        "description": "Blue and black striped dress with a blue triangle on the front, black and white striped sleeves, and a blue triangle on the back."
+    },
+    {
+        "target": "B007WFPSJE",
+        "captions": [
+            "has shoulder straps and is all blue",
+            "is turquoise and less revealing"
+        ],
+        "candidate": "B004X2HTFA",
+        "description": "A strapless blue and white floral print dress with a gathered bodice and a flowy skirt."
+    },
+    {
+        "target": "B004LLIRZE",
+        "captions": [
+            "is younger looking and more revealing",
+            "is more flowery and shorter"
+        ],
+        "candidate": "B00C92NRNY",
+        "description": "The black and white floral jacket is a stylish addition to the woman's outfit."
+    },
+    {
+        "target": "B003BED1US",
+        "captions": [
+            "has a u shaped neck with no sleeves",
+            "is sleeveless and scouped neck"
+        ],
+        "candidate": "B003JQJM0G",
+        "description": "A navy blue dress with a cowl neck and short sleeves."
+    },
+    {
+        "target": "B009S3IEO4",
+        "captions": [
+            "KIs more whimsical and floral",
+            "is more floral and longer"
+        ],
+        "candidate": "B009S3FRHQ",
+        "description": "A green halter-neck dress with a floral embellishment and a white background."
+    },
+    {
+        "target": "B00BT8N1D0",
+        "captions": [
+            "is white and has lace trim",
+            "the dress is white with longer sleeves"
+        ],
+        "candidate": "B003ZYMRAY",
+        "description": "Black 3/4 length dress with V neck, 3/4 length sleeves, and a wrap detail at the waist."
+    },
+    {
+        "target": "B00ANR3EQM",
+        "captions": [
+            "is darker and has a tighter skirt",
+            "black with billowy sleeves"
+        ],
+        "candidate": "B00BS2076Q",
+        "description": "Pink dress with a high-low hemline, sleeveless, and a tie at the waist"
+    },
+    {
+        "target": "B006U1S1EA",
+        "captions": [
+            "is solid lavender",
+            "is more blue"
+        ],
+        "candidate": "B004LVNNLM",
+        "description": "The sleeveless white dress with a floral pattern and ruffles on the neckline and sleeves."
+    },
+    {
+        "target": "B002NN85O0",
+        "captions": [
+            "is longer and has shorter sleeves",
+            "Is purple with no sleeves"
+        ],
+        "candidate": "B0076PJ2T2",
+        "description": "Black dress with 3/4 length sleeves, sweetheart neckline, and a jeweled clasp."
+    },
+    {
+        "target": "B0097LQP52",
+        "captions": [
+            "Is longer and has a striped pattern.",
+            "is black and white striped"
+        ],
+        "candidate": "B00E81C6PE",
+        "description": "White dress with lace trim, ruffled sleeves, and a V-neckline, with a ruffled hem and layered skirt."
+    },
+    {
+        "target": "B00D0AEFL2",
+        "captions": [
+            "A blue and dark red tie dyed skirt",
+            "is a red and blue tie dye long skirt"
+        ],
+        "candidate": "B00DJEQ77O",
+        "description": "The black and white long dress with a high slit, featuring a geometric print and a low neckline."
+    },
+    {
+        "target": "B006UCQY4I",
+        "captions": [
+            "is more revealing",
+            "is above the knee with lighter colors"
+        ],
+        "candidate": "B006W1TYE4",
+        "description": "The brown and red maxi dress features a floral design, spaghetti straps, and a V-neckline."
+    },
+    {
+        "target": "B005FUMTS6",
+        "captions": [
+            "has no sleeves and is pink on color",
+            "is pink colored with no sleeves"
+        ],
+        "candidate": "B0098BUONK",
+        "description": "A blue dress with short sleeves and a round neckline, featuring a floral embroidery design at the bottom."
+    },
+    {
+        "target": "B00A1AJCV2",
+        "captions": [
+            "Is more lace and premium",
+            "is white on top half of it"
+        ],
+        "candidate": "B00DPECFW4",
+        "description": "The black and gold dress is a sleeveless, knee-length dress with a fitted bodice, a wide waistband, and a high neckline."
+    },
+    {
+        "target": "B002IY7GYO",
+        "captions": [
+            "is a brown sandal",
+            "is a flip flop"
+        ],
+        "candidate": "B001RNN92A",
+        "description": "The halter-style dress features a blue and green paisley print, a plunging neckline, and a flowy design."
+    },
+    {
+        "target": "B00CZ6YA3U",
+        "captions": [
+            "its red high neckline and tight fitting",
+            "has a side ruffle and no collar"
+        ],
+        "candidate": "B00DWPDDE0",
+        "description": "The red dress features a collar, three-quarter sleeves, and a fitted design."
+    },
+    {
+        "target": "B00925D14Q",
+        "captions": [
+            "is floral long and less revealing",
+            "is floral in blue and pink with longer drapes and shoulder straps."
+        ],
+        "candidate": "B00925CZH0",
+        "description": "Black strapless dress with cut-out design, black and red color, and a silver bracelet."
+    },
+    {
+        "target": "B00901GS0G",
+        "captions": [
+            "has polka dots on it",
+            "has more polka dots"
+        ],
+        "candidate": "B0080E6XEU",
+        "description": "A black and white dress with a white top and a black skirt, featuring a bow on the chest and a ruffled sleeve."
+    },
+    {
+        "target": "B0085J4K4U",
+        "captions": [
+            "is longer",
+            "is a maxi dress in a light metallic color"
+        ],
+        "candidate": "B0094D087E",
+        "description": "Black sequin dress with a v-neckline and pockets, worn by a plus-size model."
+    },
+    {
+        "target": "B007Y2BSZI",
+        "captions": [
+            " shorter and wider skirt",
+            "has long sleeves"
+        ],
+        "candidate": "B008DS0H7C",
+        "description": "The blue high-low dress with a white and blue striped top and a pleated skirt with a high-low hemline."
+    },
+    {
+        "target": "B00C3CUPQW",
+        "captions": [
+            "no comparison",
+            "is not a clothing item"
+        ],
+        "candidate": "B00BSNK4BS",
+        "description": "The colorful dress features a vibrant leaf pattern, a fitted silhouette, and short sleeves."
+    },
+    {
+        "target": "B008VIQW5U",
+        "captions": [
+            "they are the same",
+            "sheerer material and longer skirt"
+        ],
+        "candidate": "B008UWBCXY",
+        "description": "The black maxi dress features a fitted design, a round neckline, and a high-waisted silhouette."
+    },
+    {
+        "target": "B004ATIQLW",
+        "captions": [
+            "is shorter and more floral",
+            "is shorter with a floral pattern"
+        ],
+        "candidate": "B00CQ7LKS6",
+        "description": "Black and white evening gown with a floral design, sleeveless, and a V-neckline."
+    },
+    {
+        "target": "B007Y38BHU",
+        "captions": [
+            "Is a cold shoulder asymmetrical white dress",
+            " has polka dots and is sleeveless"
+        ],
+        "candidate": "B0062FN12G",
+        "description": "The strapless black and white dress features a floral print, a white hem, and a black belt."
+    },
+    {
+        "target": "B007CDIFOQ",
+        "captions": [
+            "is sleeveless and brighter colored print",
+            "is colorful with straps"
+        ],
+        "candidate": "B003FGW7MK",
+        "description": "The blue and green long-sleeved dress with a bird-like design is a stylish and eye-catching piece of clothing."
+    },
+    {
+        "target": "B00A1AJ9TW",
+        "captions": [
+            "is white and shiny",
+            "is all white."
+        ],
+        "candidate": "B0035WTC7C",
+        "description": "The pink satin dress features a square neckline, a fitted bodice, and a flared skirt."
+    },
+    {
+        "target": "B0089IA550",
+        "captions": [
+            "is shorter and has lace",
+            "shorter and black"
+        ],
+        "candidate": "B009YMVV6W",
+        "description": "A teal dress with a ruched bodice, a belt, and a ruffled skirt."
+    },
+    {
+        "target": "B00C18GUVC",
+        "captions": [
+            "is strapless and has a striped bottom",
+            "has more stripes"
+        ],
+        "candidate": "B00FE9T22Y",
+        "description": "Black lace dress with a brown belt and gold bracelets."
+    },
+    {
+        "target": "B004SKFM8S",
+        "captions": [
+            "is floral print with spagetti halter",
+            "has bright colors and a floral pattern"
+        ],
+        "candidate": "B004DULO3K",
+        "description": "A strapless black and red dress with a ruffled skirt and a red ribbon at the waist."
+    },
+    {
+        "target": "B008IGINAC",
+        "captions": [
+            "is sheer square neck long white dress",
+            "is white with sleeves"
+        ],
+        "candidate": "B008IGJD4W",
+        "description": "A strapless floral print dress with a white and pink color scheme, featuring a tie at the waist and a flowy, lightweight design."
+    },
+    {
+        "target": "B008V5OKTI",
+        "captions": [
+            "has both straps",
+            "is a skirt and has solid black"
+        ],
+        "candidate": "B005KOYR50",
+        "description": "Black one-shoulder mini dress with black and silver sequins, black high heels, and a black belt."
+    },
+    {
+        "target": "B005TNPR9M",
+        "captions": [
+            " black with picture on front and sleeves.",
+            "little longer and more red"
+        ],
+        "candidate": "B005LJBWVG",
+        "description": "Black and white checkered dress with a black lace overlay and black lace trim."
+    },
+    {
+        "target": "B00CH35T9U",
+        "captions": [
+            "is longer and purple and yellow",
+            "has a squared neckline and is longer"
+        ],
+        "candidate": "B00CH38QMC",
+        "description": "The clothing item is a high-low dress with a colorful and intricate design, featuring a red and purple geometric pattern, a white strap, and a white ankle strap."
+    },
+    {
+        "target": "B00BI73ELQ",
+        "captions": [
+            "is shorter with printed design",
+            "is more darker and more revealing"
+        ],
+        "candidate": "B00B89PJ4E",
+        "description": "Blue and white striped maxi dress with a v-neckline and wide sleeves."
+    },
+    {
+        "target": "B007SVFA4K",
+        "captions": [
+            "is sleeveless and a briter print",
+            "is more colorful and printed"
+        ],
+        "candidate": "B008ODSHA0",
+        "description": "Black short sleeve dress with a gray panel in the middle"
+    },
+    {
+        "target": "B00BNN3BA4",
+        "captions": [
+            "is shorter with a pattern",
+            "Is shorter and more shiny"
+        ],
+        "candidate": "B00C12LB8U",
+        "description": "The black maxi dress features a scoop neckline, a fitted bodice, and a flowing maxi skirt."
+    },
+    {
+        "target": "B005LC4IRI",
+        "captions": [
+            " yellow and has no straps",
+            "is black"
+        ],
+        "candidate": "B00CTA0NEW",
+        "description": "The colorful dress features a vibrant pattern with blue, purple, and green hues."
+    },
+    {
+        "target": "B00DUH20M6",
+        "captions": [
+            "does not have cold shoulder sleeves",
+            "Has no shoulders and is more colorful"
+        ],
+        "candidate": "B00FGD88AA",
+        "description": "Black long sleeve dress with a round neckline and a fitted silhouette."
+    },
+    {
+        "target": "B003ILV2XC",
+        "captions": [
+            "Is shorter and doesn't have long-sleeves",
+            " without the fabric on bottom."
+        ],
+        "candidate": "B003ILZ4Q8",
+        "description": "The brown long sleeve tunic dress is made of stretchy material and has a round neckline."
+    },
+    {
+        "target": "B00BRBTSJK",
+        "captions": [
+            "is lighter",
+            "is shorter and lighter"
+        ],
+        "candidate": "B009QW41TE",
+        "description": "The green and black lace dress features a V-neckline, a waist belt, and a flared skirt."
+    },
+    {
+        "target": "B00E9E8YAQ",
+        "captions": [
+            "is more shiner and blue shaded",
+            "shinier"
+        ],
+        "candidate": "B00AA0CT7C",
+        "description": "Red and black striped sleeveless dress with a cutout at the top, black belt, and a black bottom."
+    },
+    {
+        "target": "B00BKWY3M8",
+        "captions": [
+            "is more floral and more colorful",
+            "has a floral print and is a maxi"
+        ],
+        "candidate": "B00763VR88",
+        "description": "A strapless navy blue lace dress with a white ribbon tied at the waist and a white belt."
+    },
+    {
+        "target": "B00BNN8QGI",
+        "captions": [
+            "has no sleeves and more of an A-line",
+            "is sleeveless and more patterned"
+        ],
+        "candidate": "B008PIFRR0",
+        "description": "V-neck long sleeve navy blue dress with a fitted silhouette and a pair of black boots."
+    },
+    {
+        "target": "B008P321MO",
+        "captions": [
+            "is darker",
+            "is stripped and more off shoulder"
+        ],
+        "candidate": "B003SGXT38",
+        "description": "White dress with ruffles, V-neck, and short sleeves"
+    },
+    {
+        "target": "B007M8PBEI",
+        "captions": [
+            "is longer and has strips",
+            "has straps and is different shades of blue and black"
+        ],
+        "candidate": "B007XCS9F6",
+        "description": "The purple sleeveless dress has a round neckline and a fitted design."
+    },
+    {
+        "target": "B003XT92YU",
+        "captions": [
+            "has more grey and less autumn colored",
+            "is lighter in color and more of a summer dress"
+        ],
+        "candidate": "B0088OX4H6",
+        "description": "A brown halter strap dress with a floral print and a high-waisted design."
+    },
+    {
+        "target": "B004I7F0YW",
+        "captions": [
+            "Is brighter and more floral",
+            "is more blue with more floral patterns"
+        ],
+        "candidate": "B003XCJQAM",
+        "description": "A long, red, orange, and brown tie-dye maxi dress with a halter neck and a gathered waist."
+    },
+    {
+        "target": "B00A17VTVG",
+        "captions": [
+            "is lighter",
+            "hot pink"
+        ],
+        "candidate": "B00CC88A5U",
+        "description": "The black and white dress features a sleeveless design, a fitted bodice, and a flared skirt with a white stripe pattern."
+    },
+    {
+        "target": "B0080BCXPQ",
+        "captions": [
+            "is more of a solid black color",
+            "Has a different neckline and is a solid black color."
+        ],
+        "candidate": "B00C6XKSYW",
+        "description": "The black and white dress has a black and white checkered pattern, a black and white striped pattern, and a black and white striped pattern."
+    },
+    {
+        "target": "B00AJLDUHA",
+        "captions": [
+            "N/A",
+            "has lace overlay and a narrow belt"
+        ],
+        "candidate": "B00BP407TO",
+        "description": "The image shows a black and white striped shirt with a white collar and a black stripe on the sleeve."
+    },
+    {
+        "target": "B00BXB7S5A",
+        "captions": [
+            " and colorful with sleeves",
+            " dolem sleeved"
+        ],
+        "candidate": "B00DOYXC36",
+        "description": "Strapless pink A-line dress with a jeweled waistband and 3-inch heeled sandals."
+    },
+    {
+        "target": "B003ILHHD6",
+        "captions": [
+            "is more pinker",
+            "is shinier and less sheer"
+        ],
+        "candidate": "B003IM3LXK",
+        "description": "The pink lace dress has a round neckline, long sleeves, and a fitted design."
+    },
+    {
+        "target": "B002UWIYTU",
+        "captions": [
+            "Is more satin and sexier",
+            "is darker red"
+        ],
+        "candidate": "B00AVGH2PY",
+        "description": "A strapless, coral-colored evening gown with a beaded bodice and a flowing, floor-length skirt."
+    },
+    {
+        "target": "B00EY9K7PQ",
+        "captions": [
+            "Has a lighter color",
+            "is white"
+        ],
+        "candidate": "B00DR7GMTG",
+        "description": "The purple dress features a one-shoulder design, a fitted silhouette, and a satin finish."
+    },
+    {
+        "target": "B00BSWF93W",
+        "captions": [
+            "has longer sleeves with more blue tone.",
+            "is blue and long-sleeved"
+        ],
+        "candidate": "B00DDS2J32",
+        "description": "Off-the-shoulder black dress with short sleeves and a fitted silhouette"
+    },
+    {
+        "target": "B00DOLD2M0",
+        "captions": [
+            "none",
+            "white and black print"
+        ],
+        "candidate": "B00DOLD2PC",
+        "description": "A navy blue sleeveless dress with pearl embellishments and a tie waist."
+    },
+    {
+        "target": "B008596N18",
+        "captions": [
+            "is longer and is solid fuschia",
+            "is purple with straps"
+        ],
+        "candidate": "B008P5OFHQ",
+        "description": "Yellow sleeveless top with a V-neckline, blue pencil skirt, and a pair of brown hair."
+    },
+    {
+        "target": "B005VTUDF2",
+        "captions": [
+            " pink",
+            "is red and shorteer"
+        ],
+        "candidate": "B007CPTQ1A",
+        "description": "Striped sleeveless dress with yellow, white, red, blue, and black stripes, a wrap top, and a belt."
+    },
+    {
+        "target": "B002TJQSWO",
+        "captions": [
+            "Is more blue and belted",
+            "is dark blue only with the waist strap."
+        ],
+        "candidate": "B007FKALOS",
+        "description": "A blue and red paisley print dress with a green waistband and ruffled bottom."
+    },
+    {
+        "target": "B00CWZSI1O",
+        "captions": [
+            "has a closed front and is belted",
+            "has a belt"
+        ],
+        "candidate": "B008VPXVTS",
+        "description": "Black sleeveless dress with a v-neckline and a black and white striped detail on the sides."
+    },
+    {
+        "target": "B00FFYR9Q4",
+        "captions": [
+            "is shinier",
+            "is more shiny"
+        ],
+        "candidate": "B009YMA3DY",
+        "description": "Black sleeveless dress with a scoop neck and a flowy skirt, with a subtle sheen and a slim fit."
+    },
+    {
+        "target": "B009QW41TE",
+        "captions": [
+            "hi-low length",
+            "is green and shorter"
+        ],
+        "candidate": "B008542KMO",
+        "description": "The long, colorful maxi dress features a vibrant geometric pattern, spaghetti straps, and a round neckline."
+    },
+    {
+        "target": "B00AOHEVDG",
+        "captions": [
+            "More blue",
+            " brown floral patterned"
+        ],
+        "candidate": "B006BNPCQW",
+        "description": "The sleeveless tan dress with a belt is a stylish and professional choice for a business casual look."
+    },
+    {
+        "target": "B00E7YNRQ4",
+        "captions": [
+            "is coral longAND strapless",
+            "is red and longer"
+        ],
+        "candidate": "B00BWW2NLE",
+        "description": "A strapless, short, and colorful leopard print mini dress with a fitted bodice and a flared skirt."
+    },
+    {
+        "target": "B00D3ECZBW",
+        "captions": [
+            "is striped with green skirt",
+            "is stripped and solid green black and white and casual"
+        ],
+        "candidate": "B007HKH8NI",
+        "description": "Black sleeveless dress with a ruched bodice and a pleated skirt."
+    },
+    {
+        "target": "B007MLVOVY",
+        "captions": [
+            "is more revealing",
+            "Is more of a floral print with a strappy top."
+        ],
+        "candidate": "B00BY04CTA",
+        "description": "The sleeveless dress features a geometric pattern in shades of pink, gray, and white, with a black belt and brown high heels."
+    },
+    {
+        "target": "B0083TEEL6",
+        "captions": [
+            " black",
+            "is lighter and tighter"
+        ],
+        "candidate": "B007DGP78E",
+        "description": "The black and white lace dress features a one-shoulder design, a fitted silhouette, and a striped pattern."
+    },
+    {
+        "target": "B007VP29VU",
+        "captions": [
+            "has long sleeves and shiny",
+            "Is brown and lace"
+        ],
+        "candidate": "B00C2PT60Q",
+        "description": "The navy blue dress features a sleeveless design, a pointy neckline, and a decorative belt detail."
+    },
+    {
+        "target": "B00FL9390S",
+        "captions": [
+            "is shorter sleeved and solid pink",
+            "is more sexy and strapless"
+        ],
+        "candidate": "B008YE25AC",
+        "description": "The striped dress features a red and blue pattern, a round neckline, and long sleeves."
+    },
+    {
+        "target": "B008YQKQJC",
+        "captions": [
+            "is longer and has more fabric",
+            "is more cream and longer"
+        ],
+        "candidate": "B0091QUF86",
+        "description": "The white dress features a sweetheart neckline, short sleeves, and a fitted bodice, with a subtle ruching detail."
+    },
+    {
+        "target": "B00BNH3QAA",
+        "captions": [
+            "is printed and has banded waist",
+            "is sleeveless and is a lighter solid color"
+        ],
+        "candidate": "B00BNH2M1E",
+        "description": "Black maxi dress with sheer bottom and a scoop neck"
+    },
+    {
+        "target": "B008NFLVRU",
+        "captions": [
+            "is longer and is sleeveless",
+            "has shorter sleees"
+        ],
+        "candidate": "B007WHU8E2",
+        "description": "The white lace top with a round neckline and short sleeves, featuring a floral pattern and a scalloped edge."
+    },
+    {
+        "target": "B008L0LH7G",
+        "captions": [
+            "more sleeves and a scoop neckline",
+            "is silver and long sleeved."
+        ],
+        "candidate": "B008CFE9ES",
+        "description": "The colorful, patterned dress features a unique zigzag design, a round neckline, and a fitted waist with a button-up front."
+    },
+    {
+        "target": "B00AQAAT46",
+        "captions": [
+            "has shorter sleeves",
+            "is looser and longer"
+        ],
+        "candidate": "B00AXDA3T2",
+        "description": "Brown strapless evening gown with ruched bodice, flower applique, and side slit."
+    },
+    {
+        "target": "B007WA25BI",
+        "captions": [
+            " and has ruffles",
+            "is less revealing at top"
+        ],
+        "candidate": "B008589FU0",
+        "description": "Black and red sleeveless dress with a V-neckline, pleated detail, and a knot at the waist."
+    },
+    {
+        "target": "B00AKR46Y4",
+        "captions": [
+            "is black with a low neck and no sleeves",
+            "Sleeveless and looser with deeper v-neck"
+        ],
+        "candidate": "B007EDU8PS",
+        "description": "The black and white plaid dress with a v-neck and long sleeves."
+    },
+    {
+        "target": "B0040JHGMC",
+        "captions": [
+            "has shorter sleeves and is black",
+            "has more solid black in pattern"
+        ],
+        "candidate": "B0068FQCXA",
+        "description": "Striped dress with black trim, black belt, and black heels"
+    },
+    {
+        "target": "B002ADKONS",
+        "captions": [
+            "is long and black with white designs",
+            "is longer has thin straps and is black and white"
+        ],
+        "candidate": "B00FFXYD6E",
+        "description": "The teal shirt is a V-neck style, with short sleeves and a high waistline."
+    },
+    {
+        "target": "B006WM4OCU",
+        "captions": [
+            " and it's a solid red. That has no train",
+            "It is more colorful and stripped"
+        ],
+        "candidate": "B00BG3NNWM",
+        "description": "Strapless maxi dress in turquoise with a pleated bodice and a knot detail at the waist."
+    },
+    {
+        "target": "B0035LDH7O",
+        "captions": [
+            " and a longer hemline",
+            "is darker and has straps"
+        ],
+        "candidate": "B004EPXWO8",
+        "description": "The blue and white dress has a blue and white pattern, a blue and white neckline, and a blue and white waistband."
+    },
+    {
+        "target": "B0073QR7U0",
+        "captions": [
+            "is a tube top and has a stripy pattern",
+            "is strapless and lighter colored"
+        ],
+        "candidate": "B00BX9IHQG",
+        "description": "The purple dress has a lace trim on the shoulders and a ruffle design."
+    },
+    {
+        "target": "B00ASWYG28",
+        "captions": [
+            "long white dress",
+            " more gathered at waist and a solid color"
+        ],
+        "candidate": "B0097J0XFC",
+        "description": "The white wedding dress features a strapless design, a fitted bodice, and a flowing skirt with floral appliques."
+    }
+]

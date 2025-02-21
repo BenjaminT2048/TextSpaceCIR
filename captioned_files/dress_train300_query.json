@@ -1,0 +1,22 @@
+[
+    {
+        "target": "B008BHCT58",
+        "captions": [
+            "is solid black with no sleeves",
+            "is black with straps"
+        ],
+        "candidate": "B003FGW7MK",
+        "reference_image_description": "The blue and green long-sleeved dress with a bird print is a stylish and eye-catching piece of clothing.",
+        "query": "\n\nThis black, sleeveless dress with straps presents a bold and eye-catching style. Its solid black color and straps add a modern twist to the design, making it a standout piece in any wardrobe. The absence of sleeves and the presence of straps create a unique silhouette that exudes confidence and sophistication."
+    },
+    {
+        "target": "B00BZ8GPVO",
+        "captions": [
+            "is longer",
+            "is lighter and longer"
+        ],
+        "candidate": "B008MTHLHQ",
+        "reference_image_description": "The black dress features a V-neckline, a fitted bodice, and a pleated skirt, with a subtle ruffle detail.",
+        "query": "\n\nThis lighter and longer black dress boasts a V-neckline and a fitted bodice, culminating in a pleated skirt with a subtle ruffle detail. Its extended length adds a graceful flow, while the lighter fabric imbues a sense of airiness, making it a versatile and elegant choice for various occasions."
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "target": "B008BHCT58",
+        "captions": [
+            "is solid black with no sleeves",
+            "is black with straps"
+        ],
+        "candidate": "B003FGW7MK",
+        "query": "The dress is a long-sleeved, black dress with a unique, abstract design featuring shades of blue and green. The dress has a round neckline and a fitted silhouette, making it suitable for a variety of occasions. The dress is made of a stretchy material, providing comfort and flexibility. The dress is available in solid black color and has straps on the sleeves."
+    },
+    {
+        "target": "B00BZ8GPVO",
+        "captions": [
+            "is longer",
+            "is lighter and longer"
+        ],
+        "candidate": "B008MTHLHQ",
+        "query": "The woman is wearing a sleek black dress with a sophisticated V-neckline and a fitted silhouette. The dress features a subtle ruched texture that adds depth and dimension to the design. The color is a rich, deep black that exudes elegance and sophistication. The dress is designed to flatter the wearer's figure, with a modest length that falls just above the knee. The overall style of the dress is modern and chic, making it perfect for a variety of occasions."
+    }
+]
