@@ -1,4 +1,6 @@
+import os
 import torch
+import tqdm
 from transformers import AutoTokenizer, AutoModel
 import json
 from text_retriever import compute_embeddings, find_top_k_similar_indices
@@ -68,20 +70,20 @@ def map_at_k(predictions: list[list[str]], ground_truths: list[list[str]], k: in
 
 def main():
     # Load tokenizer and model on GPU
-    tokenizer = AutoTokenizer.from_pretrained('intfloat/multilingual-e5-large-instruct')
-    model = AutoModel.from_pretrained('intfloat/multilingual-e5-large-instruct', device_map="cuda")
+    tokenizer = AutoTokenizer.from_pretrained(os.path.join("intfloat", "multilingual-e5-large-instruct"))
+    model = AutoModel.from_pretrained(os.path.join("intfloat", "multilingual-e5-large-instruct"), device_map="cuda")
     with torch.no_grad():
         # Load the database and compute embeddings from the "description" field
-        database = json.load(open("CIRCO/documents_pool3000.json"))
+        database = json.load(open(os.path.join("CIRCO", "documents_pool.json")))
         database = [{"description":v, "image_id":k} for k,v in database.items()]
         db_texts = [item["description"] for item in database]
         batch_size = 256
         embeddings = []
-        for i in range(0, len(database), batch_size):
+        for i in tqdm.tqdm(range(0, len(database), batch_size)):
             embeddings.append(compute_embeddings(db_texts[i:i+batch_size], tokenizer, model))
         embeddings = torch.cat(embeddings, dim=0).to(device=model.device)
         # Load queries (each query should contain a "queries" key and a "target" key)
-        queries = json.load(open("CIRCO/CIRCO_query3000.json"))
+        queries = json.load(open(os.path.join("CIRCO", "CIRCO_query.json")))
         k = 25
         # Lists to collect raw results and evaluation inputs
         all_raw_results = []
@@ -126,7 +128,7 @@ def main():
         }
 
         # Save the results to a JSON file
-        with open(f"3000_eval_results_map{k}.json", "w") as f:
+        with open(f"eval_results_map{k}.json", "w") as f:
             json.dump(output, f, indent=4)
 
 if __name__ == "__main__":

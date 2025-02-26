@@ -74,18 +74,15 @@ def describe_images(image_paths: list[str]) -> list[str]:
     return answers
 
 
-
-
-k = 3000
-folder_path = r"CIRCO\annotations\val.json"
-sample_path = r"CIRCO\COCO2017_unlabeled\unlabeled2017"
+folder_path = os.path.join("CIRCO", "annotations", "val.json")
+sample_path = os.path.join("CIRCO", "COCO2017_unlabeled", "unlabeled2017")
 with open(folder_path, 'r') as f:
     data = json.load(f)
 
 new_data = []
 intermediate_map = {}
 flag = 1
-batch_size = 8
+batch_size = 32
 images_need_descriptions = set()
 for i, item in enumerate(data):
     if item["reference_img_id"] not in intermediate_map:
@@ -98,18 +95,12 @@ for i, item in enumerate(data):
 image_extensions = ('.png', '.jpg', '.jpeg')
 all_images = [int(file[:-4]) for file in os.listdir(sample_path)
                 if file.lower().endswith(image_extensions)]
-print(all_images[:10])
-print(len(all_images))
-while len(images_need_descriptions) < k:
-    # Randomly sample the images if there are enough; otherwise, return all images
-    sampled_images = random.sample(all_images, k-len(images_need_descriptions))
-    images_need_descriptions.update(sampled_images)
-
+images_need_descriptions.update(all_images)
 images_need_descriptions = list(images_need_descriptions)
 
 for j in range(0, len(images_need_descriptions), batch_size):
     batch = images_need_descriptions[j:j+batch_size]
-    image_paths = [f"CIRCO\\COCO2017_unlabeled\\unlabeled2017\\{image:012}.jpg" for image in batch]
+    image_paths = [os.path.join("CIRCO", "COCO2017_unlabeled", "unlabeled2017", f"{image:012}.jpg") for image in batch]
     print(f"Describing {j//batch_size}th batch {batch} ...")
     descriptions = describe_images(image_paths)
     for image,desc in zip(batch, descriptions):
@@ -127,18 +118,16 @@ for i, item in enumerate(data):
     })
 
 
-
-output_file1 = f"CIRCO\descriptions_assigned{k}.json"
+output_file1 = os.path.join("CIRCO", "descriptions_assigned.json")
 with open(output_file1, "w") as f:
     json.dump(new_data, f, indent=4)
 
 
-output_file2 = f"CIRCO\documents_pool{k}.json"
+output_file2 = os.path.join("CIRCO", "documents_pool.json")
 with open(output_file2, "w") as f:
     json.dump(intermediate_map, f, indent=4)
 
 print("New JSON datas created!")
-
 
 
 
