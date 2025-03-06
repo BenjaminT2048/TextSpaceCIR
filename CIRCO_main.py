@@ -3,7 +3,7 @@ import torch
 import tqdm
 from transformers import AutoTokenizer, AutoModel
 import json
-from text_retriever import compute_embeddings, find_top_k_similar_indices
+from text_retriever import compute_embeddings, find_top_k_similar_indices, get_bm25_api
 
 def recall_k(predictions: list[list[str]], ground_truths: list[list[str]], k: int):
     hits = 0
@@ -77,7 +77,8 @@ def main():
         database = json.load(open(os.path.join("CIRCO", "documents_pool.json")))
         database = [{"description":v, "image_id":k} for k,v in database.items()]
         db_texts = [item["description"] for item in database]
-        batch_size = 256
+        batch_size = 128
+        bm25 = get_bm25_api(db_texts)
         embeddings = []
         for i in tqdm.tqdm(range(0, len(database), batch_size)):
             embeddings.append(compute_embeddings(db_texts[i:i+batch_size], tokenizer, model))
@@ -95,7 +96,9 @@ def main():
             batch_queries = [f"Description: {q['query']}\nCaption: {q['relative_caption']}\nShared Concept: {q['shared_concept']}" for q in batch]
             batch_gt = [[str(j) for j in q["gt_img_ids"]] for q in batch]
             # Retrieve the top-k similar indices for the batch of queries
-            top_k_indices = find_top_k_similar_indices(tokenizer, model, embeddings, batch_queries, k).cpu()
+            synonyms = [q["synonyms"] for q in batch]
+
+            top_k_indices = find_top_k_similar_indices(tokenizer, model,bm25, synonyms, embeddings, batch_queries, k).cpu()
 
             # Record each query's result
             for query_item, pred_indices in zip(batch, top_k_indices):

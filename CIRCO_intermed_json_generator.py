@@ -36,7 +36,7 @@ def describe_images(image_paths: list[str]) -> list[str]:
             "role": "User",
             "content": (
                 "<image_placeholder>\n"
-                "Please provide a detailed description of the image."
+                "Please provide a detailed description of the image without describing the atmosphere."
             ),
             "images": [image_path],
         },
@@ -59,7 +59,7 @@ def describe_images(image_paths: list[str]) -> list[str]:
         pad_token_id=tokenizer.eos_token_id,
         bos_token_id=tokenizer.bos_token_id,
         eos_token_id=tokenizer.eos_token_id,
-        max_new_tokens=256,
+        max_new_tokens=512,
         do_sample=False,
         use_cache=True,
     )
@@ -98,15 +98,16 @@ all_images = [int(file[:-4]) for file in os.listdir(sample_path)
 images_need_descriptions.update(all_images)
 images_need_descriptions = list(images_need_descriptions)
 
-for j in range(0, len(images_need_descriptions), batch_size):
+length = len(images_need_descriptions)
+for j in range(0, length, batch_size):
     batch = images_need_descriptions[j:j+batch_size]
     image_paths = [os.path.join("CIRCO", "COCO2017_unlabeled", "unlabeled2017", f"{image:012}.jpg") for image in batch]
     print(f"Describing {j//batch_size}th batch {batch} ...")
     descriptions = describe_images(image_paths)
     for image,desc in zip(batch, descriptions):
         intermediate_map[image] = desc
+print(intermediate_map)
 print(f"All descriptions are generated in intermediate_map!")
-
 for i, item in enumerate(data):
 
     new_data.append({
