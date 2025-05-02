@@ -17,190 +17,136 @@ phi_model = AutoModelForCausalLM.from_pretrained(
 )
 phi_tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-7B-Instruct")
 phi_tokenizer.padding_side='left'
+dataset = "CIRR"
+def generate_query(reference_image_ids, relative_captions, shared_concepts, num_diversified_queries=30) -> str:
+    from CIRCO_intermed_json_generator import describe_images
+    reference_image_descriptions = []
+    if dataset == "CIRCO":
+        sample_path = os.path.join("CIRCO", "COCO2017_unlabeled", "unlabeled2017")
+        image_paths = [os.path.join(sample_path, f"{reference_image_id:012d}.jpg") for reference_image_id in reference_image_ids]
+    elif dataset == "CIRR":
+        sample_path = os.path.join("CIRR", "images")
+        image_paths = [os.path.join(sample_path, f"{reference_image_id}.jpg") for reference_image_id in reference_image_ids]
+    for _ in range(num_diversified_queries):
+        temp = describe_images(image_paths,top_p=0.95)
+        reference_image_descriptions.append(temp)
+    generated_texts = []
+    for one_diversified_reference_image_description in reference_image_descriptions:
+        if dataset == "CIRCO":
+            prompts = [(f"""
+        Image Content: {reference_image_description}
 
-def generate_query(reference_image_descriptions, relative_captions, shared_concepts) -> str:
-    """
-    Generates a new image description based on the original description and a modification instruction.
-    Uses phi_model.generate to produce the output.
-    """
-    prompts = [(f"""
-Consider the following information:
-- reference_image_description: {reference_image_description}
-- relative_caption: {relative_caption}
-- shared_concept: {shared_concept}
-Generate a brief and objective description that captures a modified version of the original image based on the relative caption while retaining the shared concept. Avoid detailed specifics.
-"""
-    ) for reference_image_description, relative_caption, shared_concept in zip(reference_image_descriptions, relative_captions, shared_concepts)]
-    messages = [[
-        {"role": "system", "content": "You are a helpful AI assistant."},
-        {"role":"user", "content": prompt},
-        {"role":"assistant", "content":"A brief, abstract description:"}
-    ] for prompt in prompts]
-    # Encode the prompt
-    input_ids = phi_tokenizer.apply_chat_template(messages,padding=True, return_tensors="pt",return_dict=True, continue_final_message=True).to(phi_model.device)
-    print(input_ids)
-    # Generate the output using model.generate
-    outputs = phi_model.generate(
-        **input_ids,
-        max_new_tokens=256,
-        do_sample=False,
-        temperature=0.0,
-        return_dict_in_generate=True
-    )
-    
-    # Decode the generated tokens
-    generated_text = phi_tokenizer.batch_decode(outputs.sequences[:, input_ids.input_ids.shape[-1]:], skip_special_tokens=True)
-    
-    return generated_text
+        Share Content: {shared_concept}
 
-def generate_important_concepts(reference_image_descriptions, relative_captions, shared_concepts) -> str:
-    """
-    Generates a list of important concepts that should appear in the image based on the reference description,
-    relative caption, and shared concept.
-    Uses phi_model.generate to produce the output.
-    """
-    prompts = [(f"""
-Consider the following information:
-- relative_caption: {relative_caption}
-- shared_concept: {shared_concept}
-Extract 1-3 most important objects from this information. 
-List them as comma-separated keywords without explanations.
-"""
-    ) for relative_caption, shared_concept in zip(relative_captions, shared_concepts)]
-    
-    messages = [[
-        {"role": "system", "content": "You are a helpful AI assistant."},
-        {"role":"user", "content": prompt},
-        {"role":"assistant", "content":"Important concepts:"}
-    ] for prompt in prompts]
-    
-    # Encode the prompts
-    input_ids = phi_tokenizer.apply_chat_template(messages, padding=True, return_tensors="pt", return_dict=True, continue_final_message=True).to(phi_model.device)
-    
-    # Generate the output using model.generate
-    outputs = phi_model.generate(
-        **input_ids,
-        max_new_tokens=128,
-        do_sample=False,
-        temperature=0.0,
-        return_dict_in_generate=True
-    )
-    
-    # Decode the generated tokens
-    generated_text = phi_tokenizer.batch_decode(outputs.sequences[:, input_ids.input_ids.shape[-1]:], skip_special_tokens=True)
-    # Parse the comma-separated concepts into a list
-    parsed_concepts = []
-    for text in generated_text:
-        # Strip whitespace and split by commas
-        concepts_list = [concept.strip() for concept in text.split(',') if concept.strip()]
-        parsed_concepts.append(concepts_list)
-    return parsed_concepts
+        Instruction: {relative_caption}
+        """
+            ) for reference_image_description, relative_caption, shared_concept in zip(one_diversified_reference_image_description, relative_captions, shared_concepts)]
+            messages = [[
+                {"role": "system", "content": "I have an image. Given an instruction to edit the image, carefully generate a description of the edited image."},
+                {"role":"user", "content": """I have an image. Given an instruction to edit the image and a specification of content to preserve, generate a concise description of the edited image. Retain all elements listed in the "Share Content" and apply only the changes from the "Instruction".
 
-def generate_synonyms(parsed_concepts_list):
-    """
-    Generates synonyms for each concept in the parsed_concepts_list.
-    Uses phi_model to generate synonyms for each concept.
-    
-    Args:
-        parsed_concepts_list: A list of lists, where each inner list contains concepts.
-        
-    Returns:
-        A list of dictionaries, where each dictionary maps a concept to a list of its synonyms.
-    """
-    all_synonyms = []
-    
-    # Process in batches
-    for i in range(0, len(parsed_concepts_list), batch_size):
-        batch_concepts = parsed_concepts_list[i:i+batch_size]
-        batch_prompts = []
-        
-        for concepts in batch_concepts:
-            # Create a prompt for each concept list
-            prompt = "Generate 3 simple synonyms for each of the following objects with no explanations. Format your response as 'object: synonym1, synonym2, synonym3'\n"
-            for concept in concepts:
-                prompt += f"- {concept}\n"
-            batch_prompts.append(prompt)
-        
-        batch_messages = [
-            [
-                {"role": "system", "content": "You are a helpful AI assistant."},
-                {"role": "user", "content": prompt},
-                {"role": "assistant", "content": "Here are the"}
-            ] for prompt in batch_prompts
-        ]
-        
-        # Encode the prompts
-        input_ids = phi_tokenizer.apply_chat_template(batch_messages, padding=True, return_tensors="pt", return_dict=True, continue_final_message=True).to(phi_model.device)
-        
-        # Generate the outputs
+        Image Content: [Original description of the image].
+
+        Share Content: [Elements that MUST remain unchanged].
+
+        Instruction: [Modification to apply].
+
+        Respond only with the edited description, starting with "Edited Description:". Strictly reflect the final image content.
+        """},
+        {"role":"user", "content": """Image Content: a man adjusting a woman's tie.
+        Share Content: the action of adjusting the tie.
+        Instruction: switch the roles of the man and woman."""},
+        {"role":"assistant", "content": "Edited Description: a woman adjusting a man's tie."},
+        {"role":"user", "content":"""Image Content: a red car parked next to a blue bicycle.
+        Share Content: the red car.
+        Instruction: change the bicycle to green.
+        """},
+        {"role":"assistant", "content": "Edited Description: a red car parked next to a green bicycle."},
+                {"role":"user", "content": prompt},
+                {"role":"assistant", "content":"Edited Description:"}
+            ] for prompt in prompts]
+        elif dataset == "CIRR":
+            prompts = [(f"""
+        Image Content: {reference_image_description}
+
+        Instruction: {relative_caption}
+        """
+            ) for reference_image_description, relative_caption, shared_concept in zip(one_diversified_reference_image_description, relative_captions, shared_concepts)]
+            messages = [[
+                {"role": "system", "content": "I have an image. Given an instruction to edit the image, carefully generate a description of the edited image."},
+                {"role":"user", "content": """I have an image. Given an instruction to edit the image and a specification of content to preserve, generate a concise description of the edited image. Apply only the changes from the "Instruction".
+
+        Image Content: [Original description of the image].
+
+        Instruction: [Modification to apply].
+
+        Respond only with the edited description, starting with "Edited Description:". Strictly reflect the final image content.
+        """},
+        {"role":"user", "content": """Image Content: a man adjusting a woman's tie.
+        Instruction: switch the roles of the man and woman."""},
+        {"role":"assistant", "content": "Edited Description: a woman adjusting a man's tie."},
+        {"role":"user", "content":"""Image Content: a red car parked next to a blue bicycle.
+        Instruction: change the bicycle to green.
+        """},
+        {"role":"assistant", "content": "Edited Description: a red car parked next to a green bicycle."},
+                {"role":"user", "content": prompt},
+                {"role":"assistant", "content":"Edited Description:"}
+            ] for prompt in prompts]
+        # Encode the prompt
+        input_ids = phi_tokenizer.apply_chat_template(messages,padding=True, return_tensors="pt",return_dict=True, continue_final_message=True).to(phi_model.device)
+        # Generate the output using model.generate
         outputs = phi_model.generate(
             **input_ids,
             max_new_tokens=256,
-            do_sample=False,
-            temperature=0.0,
-            return_dict_in_generate=True
+            do_sample=True,
+            top_p =0.95,
+            temperature=2.0,
+            return_dict_in_generate=True,
         )
-        
         # Decode the generated tokens
-        generated_texts = phi_tokenizer.batch_decode(outputs.sequences[:, input_ids.input_ids.shape[-1]:], skip_special_tokens=True)
-        
-        # Parse the synonyms for each response
-        for idx, (concepts, generated_text) in enumerate(zip(batch_concepts, generated_texts)):
-            concept_synonyms = {}
-            lines = [line.strip() for line in generated_text.split('\n') if line.strip()]
-            
-            for line in lines:
-                if ':' in line:
-                    parts = line.split(':', 1)
-                    concept = parts[0].strip().strip('-').strip()
-                    synonyms = [syn.strip() for syn in parts[1].split(',') if syn.strip()]
-                    # Remove any explanations in parentheses from synonyms
-                    cleaned_synonyms = []
-                    for syn in synonyms:
-                        # Split by opening parenthesis and take only the first part
-                        cleaned_syn = syn.split('(')[0].strip()
-                        if cleaned_syn:  # Only add non-empty strings
-                            cleaned_synonyms.append(cleaned_syn)
-                    # Use cleaned synonyms instead of original ones
-                    if cleaned_synonyms:
-                        synonyms = cleaned_synonyms
-                    # Only add if the concept is in our original list
-                    if concept in concepts or any(concept.lower() == c.lower() for c in concepts):
-                        concept_synonyms[concept] = synonyms
-            
-            all_synonyms.append(concept_synonyms)
-    
-    return all_synonyms
+        generated_text = phi_tokenizer.batch_decode(outputs.sequences[:, input_ids.input_ids.shape[-1]:], skip_special_tokens=True)
+        generated_texts.append(generated_text)
+    results = []
+    captions = []
+    for i in range(input_ids.input_ids.shape[0]):
+        results.append([generated_texts[j][i] for j in range(num_diversified_queries)])
+        captions.append([reference_image_descriptions[j][i] for j in range(num_diversified_queries)])
+    return results, captions
 
-folder_path = os.path.join("CIRCO", f"descriptions_assigned.json")
-
-with open(folder_path, 'r') as f:
-    data = json.load(f)
-
+if dataset == "CIRCO":
+    folder_path = os.path.join("CIRCO", f"descriptions_assigned.json")
+elif dataset == "CIRR":
+    folder_path = os.path.join("CIRR", f"val.json")
+if dataset == "CIRCO":
+    with open(folder_path, 'r') as f:
+        data = json.load(f)
+elif dataset == "CIRR":
+    with open(folder_path, 'r') as f:
+        data = json.load(f)[:300]
 new_data = []
 
-batch_size = 256
-for i in tqdm(range(0, len(data), batch_size)):
-    batch = data[i:i+batch_size]
-    ref_image_descs = [item["reference_image_description"] for item in batch]
-    rel_captions = [item["relative_caption"] for item in batch]
-    concepts = [item["shared_concept"] for item in batch]
-    queries = generate_query(ref_image_descs,rel_captions, concepts)
-    important_concepts = generate_important_concepts(ref_image_descs,rel_captions, concepts)
-    synonyms = generate_synonyms(important_concepts)
-    new_data.extend([{
-        "gt_img_ids": item["gt_img_ids"],
-        "query": query,
-        "reference_image_description": item["reference_image_description"],
-        "relative_caption": item["relative_caption"],
-        "shared_concept": item["shared_concept"],
-        "important_concepts": concept,
-        "synonyms": synonym
-        } for item,query,concept,synonym in zip(batch, queries,important_concepts,synonyms)])
-    print(f"Finished processing {i//batch_size}th batch ...")
+batch_size = 32
+with torch.no_grad():
+    for i in tqdm(range(0, len(data), batch_size)):
+        batch = data[i:i+batch_size]
+        ref_image_ids = [item["reference_img_id"] for item in batch]
+        rel_captions = [item["relative_caption"] for item in batch]
+        concepts = [item["shared_concept"] for item in batch]
+        queries, captions = generate_query(ref_image_ids,rel_captions, concepts)
+        new_data.extend([{
+            "gt_img_ids": item["gt_img_ids"],
+            "query": query,
+            "reference_img_id": item["reference_img_id"],
+            "reference_image_descriptions": caption,
+            "relative_caption": item["relative_caption"],
+            "shared_concept": item["shared_concept"],
+            } for item,query,caption in zip(batch, queries, captions)])
+        print(f"Finished processing {i//batch_size}th batch ...")
 
-
-output_file = os.path.join("CIRCO", f"CIRCO_query.json")
+if dataset == "CIRCO":
+    output_file = os.path.join("CIRCO", f"CIRCO_query_diversified_temp2_30.json")
+elif dataset == "CIRR":
+    output_file = os.path.join("CIRR", f"CIRR_query_diversified_temp2_30.json")
 with open(output_file, "w") as f:
     json.dump(new_data, f, indent=4)
 

@@ -1,5 +1,5 @@
 import torch
-from transformers import AutoModelForCausalLM
+from transformers import AutoModelForCausalLM, set_seed
 from janus.models import MultiModalityCausalLM, VLChatProcessor
 from janus.utils.io import load_pil_images
 import json 
@@ -7,7 +7,7 @@ import os
 import random
 
 
-random.seed(114514)
+set_seed(114514)
 
 
 MODEL_PATH = "deepseek-ai/Janus-1.3B"
@@ -19,7 +19,7 @@ vl_gpt: MultiModalityCausalLM = AutoModelForCausalLM.from_pretrained(
 )
 vl_gpt = vl_gpt.to(torch.bfloat16).cuda().eval()
 
-def describe_images(image_paths: list[str]) -> list[str]:
+def describe_images(image_paths: list[str], top_p=0.95, temperature=1.25) -> list[str]:
     """
     Generates a detailed description of the image provided by the image path.
 
@@ -60,7 +60,9 @@ def describe_images(image_paths: list[str]) -> list[str]:
         bos_token_id=tokenizer.bos_token_id,
         eos_token_id=tokenizer.eos_token_id,
         max_new_tokens=512,
-        do_sample=False,
+        do_sample=True,
+        top_p=0.95,
+        temperature=temperature,
         use_cache=True,
     )
 
@@ -73,62 +75,62 @@ def describe_images(image_paths: list[str]) -> list[str]:
     
     return answers
 
+if __name__ == "__main__":
 
-folder_path = os.path.join("CIRCO", "annotations", "val.json")
-sample_path = os.path.join("CIRCO", "COCO2017_unlabeled", "unlabeled2017")
-with open(folder_path, 'r') as f:
-    data = json.load(f)
+    folder_path = os.path.join("CIRCO", "annotations", "val.json")
+    sample_path = os.path.join("CIRCO", "COCO2017_unlabeled", "unlabeled2017")
+    with open(folder_path, 'r') as f:
+        data = json.load(f)
 
-new_data = []
-intermediate_map = {}
-flag = 1
-batch_size = 32
-images_need_descriptions = set()
-for i, item in enumerate(data):
-    if item["reference_img_id"] not in intermediate_map:
-        images_need_descriptions.add(item["reference_img_id"])
-    for image_id in item["gt_img_ids"]:
-        if image_id not in intermediate_map:
-            images_need_descriptions.add(image_id)
-
-
-image_extensions = ('.png', '.jpg', '.jpeg')
-all_images = [int(file[:-4]) for file in os.listdir(sample_path)
-                if file.lower().endswith(image_extensions)]
-images_need_descriptions.update(all_images)
-images_need_descriptions = list(images_need_descriptions)
-
-length = len(images_need_descriptions)
-for j in range(0, length, batch_size):
-    batch = images_need_descriptions[j:j+batch_size]
-    image_paths = [os.path.join("CIRCO", "COCO2017_unlabeled", "unlabeled2017", f"{image:012}.jpg") for image in batch]
-    print(f"Describing {j//batch_size}th batch {batch} ...")
-    descriptions = describe_images(image_paths)
-    for image,desc in zip(batch, descriptions):
-        intermediate_map[image] = desc
-print(intermediate_map)
-print(f"All descriptions are generated in intermediate_map!")
-for i, item in enumerate(data):
-
-    new_data.append({
-        "reference_img_id": item["reference_img_id"],
-        "reference_image_description": intermediate_map[item["reference_img_id"]],
-        "gt_img_ids": item["gt_img_ids"],
-        "relative_caption": item["relative_caption"],
-        "shared_concept": item["shared_concept"]
-    })
+    new_data = []
+    intermediate_map = {}
+    batch_size = 64
+    images_need_descriptions = set()
+    for i, item in enumerate(data):
+        if item["reference_img_id"] not in intermediate_map:
+            images_need_descriptions.add(item["reference_img_id"])
+        for image_id in item["gt_img_ids"]:
+            if image_id not in intermediate_map:
+                images_need_descriptions.add(image_id)
 
 
-output_file1 = os.path.join("CIRCO", "descriptions_assigned.json")
-with open(output_file1, "w") as f:
-    json.dump(new_data, f, indent=4)
+    image_extensions = ('.png', '.jpg', '.jpeg')
+    all_images = [int(file[:-4]) for file in os.listdir(sample_path)
+                    if file.lower().endswith(image_extensions)]
+    images_need_descriptions.update(all_images)
+    images_need_descriptions = list(images_need_descriptions)
+
+    length = len(images_need_descriptions)
+    for j in range(0, length, batch_size):
+        batch = images_need_descriptions[j:j+batch_size]
+        image_paths = [os.path.join("CIRCO", "COCO2017_unlabeled", "unlabeled2017", f"{image:012}.jpg") for image in batch]
+        print(f"Describing {j//batch_size}th batch {batch} ...")
+        descriptions = describe_images(image_paths)
+        for image,desc in zip(batch, descriptions):
+            intermediate_map[image] = desc
+    print(intermediate_map)
+    print(f"All descriptions are generated in intermediate_map!")
+    for i, item in enumerate(data):
+
+        new_data.append({
+            "reference_img_id": item["reference_img_id"],
+            "reference_image_description": intermediate_map[item["reference_img_id"]],
+            "gt_img_ids": item["gt_img_ids"],
+            "relative_caption": item["relative_caption"],
+            "shared_concept": item["shared_concept"]
+        })
 
 
-output_file2 = os.path.join("CIRCO", "documents_pool.json")
-with open(output_file2, "w") as f:
-    json.dump(intermediate_map, f, indent=4)
+    output_file1 = os.path.join("CIRCO", "descriptions_assigned_3.json")
+    with open(output_file1, "w") as f:
+        json.dump(new_data, f, indent=4)
 
-print("New JSON datas created!")
+
+    output_file2 = os.path.join("CIRCO", "documents_pool_3.json")
+    with open(output_file2, "w") as f:
+        json.dump(intermediate_map, f, indent=4)
+
+    print("New JSON datas created!")
 
 
 

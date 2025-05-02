@@ -3,17 +3,22 @@ import torch
 import tqdm
 from transformers import AutoTokenizer, AutoModel
 import json
-from text_retriever import compute_embeddings, find_top_k_similar_indices, get_bm25_api
+from text_retriever import compute_embeddings, compute_semantic_scores, find_top_k_similar_indices, get_bm25_api
 
 def recall_k(predictions: list[list[str]], ground_truths: list[list[str]], k: int):
     hits = 0
     total_ground_truths = 0
+    recalls = []
     assert len(predictions)==len(ground_truths), f"{len(predictions)} is not equal to {len(ground_truths)}"
     for pred, gt in zip(predictions, ground_truths):
         total_ground_truths += len(gt)
+        current_hits = 0
         for i in gt:
-            hits += i in pred
-    return hits/total_ground_truths
+            if i in pred:
+                current_hits += 1
+        hits += current_hits
+        recalls.append([f"{current_hits}/{len(gt)}", current_hits/len(gt)])
+    return hits/total_ground_truths, recalls
 
 def mean_rank(predictions: list[list[str]], ground_truths: list[list[str]], k: int):
     total_ranks = 0
@@ -66,51 +71,68 @@ def map_at_k(predictions: list[list[str]], ground_truths: list[list[str]], k: in
             
         aps.append(ap)
     # Calculate MAP
-    return sum(aps) / len(aps) if aps else 0.0
+    return sum(aps) / len(aps) if aps else 0.0, aps
 
 def main():
     # Load tokenizer and model on GPU
-    tokenizer = AutoTokenizer.from_pretrained(os.path.join("intfloat", "multilingual-e5-large-instruct"))
-    model = AutoModel.from_pretrained(os.path.join("intfloat", "multilingual-e5-large-instruct"), device_map="cuda")
+    #model_name = "infly/inf-retriever-v1-1.5b"
+    model_name = "intfloat/multilingual-e5-large-instruct"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModel.from_pretrained(model_name, device_map="cuda")
+    database = json.load(open(os.path.join("CIRCO", "documents_pool_1.json")))
+    database = [{"description":v, "image_id":k} for k,v in database.items()]
+    db_texts = [item["description"].lower() for item in database]
+    indexed_database = {}
+    batch_size = 16
+    for i, item in enumerate(database):
+        indexed_database[int(item["image_id"])] = i
     with torch.no_grad():
-        # Load the database and compute embeddings from the "description" field
-        database = json.load(open(os.path.join("CIRCO", "documents_pool.json")))
-        database = [{"description":v, "image_id":k} for k,v in database.items()]
-        db_texts = [item["description"] for item in database]
-        batch_size = 128
+        embedding_name = f"{model_name.replace('/', '_')}_embeddings.pt"
+        if os.path.exists(embedding_name):
+            embeddings = torch.load(embedding_name)
+        else:
+            # Load the database and compute embeddings from the "description" field
+
+            embeddings = []
+            for i in tqdm.tqdm(range(0, len(database), batch_size)):
+                embeddings.append(compute_embeddings(db_texts[i:i+batch_size], tokenizer, model))
+            embeddings = torch.cat(embeddings, dim=0)
+            torch.save(embeddings, embedding_name)
+        embeddings = embeddings.to(model.device)
+        embeddings_list = [embeddings, torch.load(embedding_name.replace("_embeddings.pt", "_embeddings_2.pt")).to(model.device)]
         bm25 = get_bm25_api(db_texts)
-        embeddings = []
-        for i in tqdm.tqdm(range(0, len(database), batch_size)):
-            embeddings.append(compute_embeddings(db_texts[i:i+batch_size], tokenizer, model))
-        embeddings = torch.cat(embeddings, dim=0).to(device=model.device)
         # Load queries (each query should contain a "queries" key and a "target" key)
-        queries = json.load(open(os.path.join("CIRCO", "CIRCO_query.json")))
+        queries = json.load(open(os.path.join("CIRCO", "CIRCO_query_diversified_temp2.json")))
         k = 25
         # Lists to collect raw results and evaluation inputs
         all_raw_results = []
         all_predictions = []
         all_ground_truths = []
         # Process queries in batches
-        for i in range(0, len(queries), batch_size):
+        for i in tqdm.tqdm(range(0, len(queries), batch_size)):
             batch = queries[i:i+batch_size]
-            batch_queries = [f"Description: {q['query']}\nCaption: {q['relative_caption']}\nShared Concept: {q['shared_concept']}" for q in batch]
             batch_gt = [[str(j) for j in q["gt_img_ids"]] for q in batch]
+            batch_queries = [[f"Query: {k}\nCaption: {q['relative_caption']}\nShared Concept: {q['shared_concept']}"for k in q["query"]] for q in batch]
+            batch_captions = [q["reference_image_descriptions"] for q in batch]
             # Retrieve the top-k similar indices for the batch of queries
-            synonyms = [q["synonyms"] for q in batch]
-
-            top_k_indices = find_top_k_similar_indices(tokenizer, model,bm25, synonyms, embeddings, batch_queries, k).cpu()
-
+            top_k_indices, fused_scores = find_top_k_similar_indices(tokenizer, model,bm25, None, embeddings_list, batch_queries, batch_captions, k, None, None)
+            top_k_indices = top_k_indices.cpu()
+            fused_scores = fused_scores.cpu()
             # Record each query's result
-            for query_item, pred_indices in zip(batch, top_k_indices):
+            for query_item, pred_indices, fused_score in zip(batch, top_k_indices, fused_scores):
                 predictions = []
                 for i in pred_indices:
-                    predictions.append({"image_id":database[i]["image_id"],  "description": database[i]["description"]})
+                    predictions.append({"image_id":database[i]["image_id"],  "description": database[i]["description"],"fused_score": float(fused_score[i])})
+                ground_truths = []
+                for i in query_item["gt_img_ids"]:
+                    index = indexed_database[i]
+                    ground_truths.append({"image_id":i, "description": database[index]["description"], "fused_score": float(fused_score[index])})
                 result = {
                     "query": query_item["query"],
-                    "reference_image_description": query_item["reference_image_description"],
+                    "reference_image_description": query_item["reference_image_descriptions"],
                     "relative_caption": query_item["relative_caption"],
                     "shared_concept": query_item["shared_concept"],
-                    "ground_truth": query_item["gt_img_ids"],
+                    "ground_truth": ground_truths,
                     "predictions": predictions,
                 }
                 all_raw_results.append(result)
@@ -119,9 +141,13 @@ def main():
             all_ground_truths.extend(batch_gt)
 
         # Compute final metrics from the aggregated predictions
-        final_metrics = map_at_k(all_predictions, all_ground_truths, k)
-        recall_k_metrics = recall_k(all_predictions, all_ground_truths, k)
+        final_metrics,aps = map_at_k(all_predictions, all_ground_truths, k)
+        recall_k_metrics, recalls = recall_k(all_predictions, all_ground_truths, k)
         mean_rank_metrics = mean_rank(all_predictions, all_ground_truths, k)
+        for ap, raw_result, recall in zip(aps,all_raw_results, recalls):
+            raw_result["map@k"] = ap
+            raw_result["recall@k"] = recall
+        # Prepare the final output
         # Prepare the final output
         output = {
             "raw_results": all_raw_results,
